@@ -42,7 +42,7 @@ Patients were included in the analysis based on the presence of International Cl
 
 #### **2.3. Independent Variable: Social Vulnerability Index (SVI)**
 
-The primary independent variable was the Social Vulnerability Index. The SVI for each patient was determined based on their census tract of residence. The overall SVI score is a percentile ranking from 0 (least vulnerable) to 1 (most vulnerable). As detailed in the analysis scripts (e.g., `svi_qol_analysis.py`), the total SVI score (`SVI_total`) for each patient was calculated by taking the mean of the four SVI thematic percentile scores provided in the dataset:
+The primary independent variable was the Social Vulnerability Index. The SVI for each patient was determined based on their census tract of residence. The overall SVI score is a percentile ranking from 0 (least vulnerable) to 1 (most vulnerable). As detailed in the analysis scripts (e.g., `2_Scripts/5_qol_analysis/svi_qol_analysis.py`), the total SVI score (`SVI_total`) for each patient was calculated by taking the mean of the four SVI thematic percentile scores provided in the dataset:
 *   `svi_socioeconomic`
 *   `svi_household_comp`
 *   `svi_housing_transportation`
@@ -52,18 +52,20 @@ For analytical purposes, patients were categorized into quartiles based on their
 
 #### **2.4. Outcome Measures**
 
-A comprehensive set of outcome measures was derived from the dataset, as implemented in the various analysis scripts.
+A comprehensive set of outcome measures was derived from the dataset, as implemented in the various analysis scripts located in `2_Scripts/`.
 
-*   **Ocular Complications:** Lifetime prevalence of major ocular complications was determined by performing keyword searches within the `ossurg`, `ossurgoth`, `procedure name`, and `dx name` columns. Keywords included `'cataract'`, `'glaucoma'`, `'synechiae'`, and `'surgery'`. A patient was flagged as positive for a complication if any of the keywords were present in their relevant records. This logic is implemented in `svi_complications_analysis_lifetime/svi_complications_analysis.py`.
+*   **Ocular Complications:** Lifetime prevalence of major ocular complications was determined by performing keyword searches within the `ossurg`, `ossurgoth`, `procedure name`, and `dx name` columns. Keywords included `'cataract'`, `'glaucoma'`, `'synechiae'`, and `'surgery'`. A patient was flagged as positive for a complication if any of the keywords were present in their relevant records. This logic is implemented in `2_Scripts/1_complications_analysis/svi_complications_analysis.py`.
 
-*   **Quality of Life (QOL):** Multiple validated QOL instruments were analyzed. The processing logic, found in `svi_qol_analysis/svi_qol_analysis.py`, involved converting categorical text responses (e.g., "Often a problem") into numerical values, which were then transformed into a standardized 0-100 scale where a higher score indicates better QOL.
+*   **Quality of Life (QOL):** Multiple validated QOL instruments were analyzed. The processing logic, found in `2_Scripts/5_qol_analysis/svi_qol_analysis.py`, involved converting categorical text responses (e.g., "Often a problem") into numerical values, which were then transformed into a standardized 0-100 scale where a higher score indicates better QOL.
     *   **PedsQL:** The Pediatric Quality of Life Inventory score was calculated from columns matching the pattern `pedsql .* c (list distinct)`.
     *   **CHAQ:** The Childhood Health Assessment Questionnaire score was calculated from columns such as `child dress` and `child walk`.
     *   **EQ-Vision:** A vision-specific QOL score was calculated from columns prefixed with `eqv5y`.
 
-*   **Visual Acuity (VA):** The worst-recorded visual acuity for each eye was identified from multiple columns (e.g., `exam left vadcc (list distinct)`). As detailed in `svi_va_analysis/svi_va_analysis.py`, these values were converted from Snellen (e.g., 20/40) or descriptive (e.g., 'HM' for Hand Motion) formats to the standardized LogMAR scale, where higher scores indicate worse vision. The worst LogMAR score between the two eyes was used as the final outcome variable for each patient.
+*   **Visual Acuity (VA):** The worst-recorded visual acuity for each eye was identified from multiple columns (e.g., `exam left vadcc (list distinct)`). As detailed in `2_Scripts/7_va_analysis/svi_va_analysis.py`, these values were converted from Snellen (e.g., 20/40) or descriptive (e.g., 'HM' for Hand Motion) formats to the standardized LogMAR scale, where higher scores indicate worse vision. The worst LogMAR score between the two eyes was used as the final outcome variable for each patient.
 
-*   **Treatment Delay:** The time from JIA diagnosis to the initiation of the first systemic medication was calculated in weeks. This was derived from date columns in the dataset, as seen in `svi_treatment_delay_analysis/svi_treatment_delay_analysis.py`.
+*   **Treatment Delay:** The time from JIA diagnosis to the initiation of the first systemic medication was calculated in weeks. This was derived from date columns in the dataset, as seen in `2_Scripts/8_treatment_delay_analysis/svi_treatment_delay_analysis.py`.
+
+*   **Steroid Duration:** The duration of topical steroid eye drop use was analyzed as a proxy for persistent inflammation, as implemented in `2_Scripts/6_steroid_duration_analysis/svi_steroid_duration_analysis.py`.
 
 #### **2.5. Statistical Analysis**
 
@@ -90,6 +92,8 @@ The findings from the analysis scripts consistently demonstrate a significant as
 
 *   **Treatment Patterns:** A significant delay in the initiation of systemic immunosuppressive therapy was observed for patients in higher SVI quartiles. Furthermore, the duration of topical steroid use, a proxy for persistent inflammation, was longest for patients in the Q4 SVI group.
 
+*   **Disease Onset:** Analysis of age at disease onset revealed patterns that may contribute to the observed outcome differences, with some evidence of delayed diagnosis in higher SVI quartiles.
+
 ---
 
 ### **4. Discussion**
@@ -105,3 +109,17 @@ These results align with a growing body of literature across many chronic diseas
 ### **5. Conclusion**
 
 Social vulnerability is a potent predictor of adverse health outcomes in children with JIA and uveitis. Addressing the social and economic barriers faced by patients and their families is not just a matter of health equity, but is likely a clinical necessity to improve outcomes for all children with these chronic conditions.
+
+---
+
+### **6. Project Structure and Reproducibility**
+
+This analysis was conducted using a well-organized project structure:
+
+*   **`1_Data/`**: Contains raw and processed datasets
+*   **`2_Scripts/`**: Contains all analysis scripts organized by analysis type
+*   **`3_Results/`**: Contains all outputs including figures and statistical summaries
+*   **`4_Reports/`**: Contains final reports and presentations
+*   **`5_Documentation/`**: Contains detailed documentation including this report
+
+All analyses are reproducible using the provided Python scripts, and the complete project is available on GitHub with Git LFS for large file management.
