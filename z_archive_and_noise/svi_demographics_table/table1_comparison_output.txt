@@ -1,0 +1,560 @@
+--- Final Table 1 Generation Script Output ---
+Data Source: /Users/rajlq7/Desktop/SVI/SVI_Pankaj_data_1_updated_merged_new.csv
+
+NOTE: 'N' values in table headers refer to the number of patients within the 
+      JIA-Only/JIA-U groups with valid, non-missing data for that specific variable.
+      Total patient counts for each group are listed below the metric name.
+Loading data...
+Successfully loaded CSV. Initial shape: (510, 572)
+
+--- Grouping based on codes in 'dx code (list distinct)' ---
+Filtered to JIA-Only, JIA-U, and Uveitis-Only groups. Shape: (509, 573)
+
+========= Table 1: JIA-Only vs JIA-U vs Uveitis-Only Comparison =========
+
+--- Analyzing: Gender ---
+JIA-Only Total Patients: 357
+JIA-U Total Patients: 127
+Uveitis-Only Total Patients: 25
+Gender (N=509 with valid data)
+Category                                      JIA-Only             JIA-U                Uveitis-Only         P-value
+                                              (N=357)              (N=127)              (N=25)               <0.0001 (χ²=45.14, dof=2)
+  Female                                      230 (64.4%)          99 (78.0%)           2 (8.0%)            
+  Male                                        127 (35.6%)          28 (22.0%)           23 (92.0%)          
+
+--- Combining JIA subtypes from multiple columns ---
+Used primary column 'ilar_code_display_value (list distinct)' where available
+Used alternative column 1 'ILAR code' where primary was missing
+Found 356 subtypes from primary column
+Added 23 subtypes from alternative column 1
+Combined JIA subtype column has 379/509 filled values (74.5%)
+
+--- Analyzing: JIA Subtype (Combined) ---
+JIA-Only Total Patients: 357
+JIA-U Total Patients: 127
+Uveitis-Only Total Patients: 25
+JIA Subtype (Combined) (N=379 with valid data)
+(Warning: Expected cell count < 5 in Chi-squared test. P-value may be inaccurate.)
+Category                                      JIA-Only             JIA-U                Uveitis-Only         P-value
+                                              (N=282)              (N=97)               (N=0)                <0.0001 (χ²=70.97, dof=15)
+  Enthesitis Related Arthritis                11 (3.9%)            0 (0.0%)             0 (0.0%)            
+  Oligoarticular (unspecified)                6 (2.1%)             0 (0.0%)             0 (0.0%)            
+  Oligoarticular extended                     8 (2.8%)             19 (19.6%)           0 (0.0%)            
+  Oligoarticular persistent                   102 (36.2%)          51 (52.6%)           0 (0.0%)            
+  Other                                       1 (0.4%)             0 (0.0%)             0 (0.0%)            
+  Polyarticular RF (+)                        1 (0.4%)             0 (0.0%)             0 (0.0%)            
+  Polyarticular RF (-)                        60 (21.3%)           16 (16.5%)           0 (0.0%)            
+  Psoriatic Arthritis                         7 (2.5%)             0 (0.0%)             0 (0.0%)            
+  Systemic JIA                                52 (18.4%)           1 (1.0%)             0 (0.0%)            
+  Undifferentiated Arthritis                  14 (5.0%)            7 (7.2%)             0 (0.0%)            
+  enthesitis-related                          2 (0.7%)             0 (0.0%)             0 (0.0%)            
+  extended oligoarticular                     1 (0.4%)             0 (0.0%)             0 (0.0%)            
+  persistent oligoarticular                   1 (0.4%)             3 (3.1%)             0 (0.0%)            
+  psoriatic                                   6 (2.1%)             0 (0.0%)             0 (0.0%)            
+  systemic                                    8 (2.8%)             0 (0.0%)             0 (0.0%)            
+  undifferentiated                            2 (0.7%)             0 (0.0%)             0 (0.0%)            
+  Missing/Unknown                             75                   30                   25                  
+(Note: P-value for multi-category JIA Subtype might require different handling/interpretation)
+
+--- Analyzing: Race (Raw Categories) ---
+JIA-Only Total Patients: 357
+JIA-U Total Patients: 127
+Uveitis-Only Total Patients: 25
+Race (Raw Categories) (N=509 with valid data)
+(Warning: Expected cell count < 5 in Chi-squared test. P-value may be inaccurate.)
+Category                                      JIA-Only             JIA-U                Uveitis-Only         P-value
+                                              (N=357)              (N=127)              (N=25)               0.0445 (χ²=26.74, dof=16)
+  ASIAN                                       9 (2.5%)             1 (0.8%)             0 (0.0%)            
+  BLACK OR AFRICAN AMERICAN                   24 (6.7%)            19 (15.0%)           8 (32.0%)           
+  MIDDLE EASTERN                              1 (0.3%)             0 (0.0%)             0 (0.0%)            
+  NO PARENT/PRIMARY CAREGIVER PRESENT         1 (0.3%)             0 (0.0%)             0 (0.0%)            
+  OTHER                                       3 (0.8%)             2 (1.6%)             0 (0.0%)            
+  PATIENT REFUSED                             1 (0.3%)             0 (0.0%)             0 (0.0%)            
+  PLEASE UPDATE                               2 (0.6%)             0 (0.0%)             0 (0.0%)            
+  PREFERRED CATEGORY NOT AVAILABLE            4 (1.1%)             0 (0.0%)             0 (0.0%)            
+  WHITE                                       312 (87.4%)          105 (82.7%)          17 (68.0%)          
+
+--- Analyzing: Ethnicity (Raw Categories) ---
+JIA-Only Total Patients: 357
+JIA-U Total Patients: 127
+Uveitis-Only Total Patients: 25
+Ethnicity (Raw Categories) (N=509 with valid data)
+(Warning: Expected cell count < 5 in Chi-squared test. P-value may be inaccurate.)
+Category                                      JIA-Only             JIA-U                Uveitis-Only         P-value
+                                              (N=357)              (N=127)              (N=25)               0.8773 (χ²=2.42, dof=6)
+  Hispanic                                    11 (3.1%)            2 (1.6%)             0 (0.0%)            
+  Non-Hispanic                                344 (96.4%)          125 (98.4%)          25 (100.0%)         
+  Patient Refused                             1 (0.3%)             0 (0.0%)             0 (0.0%)            
+  Unknown                                     1 (0.3%)             0 (0.0%)             0 (0.0%)            
+
+--- Combining Race/Ethnicity (using 'race' and 'ethnicity') --- 
+Created 'race_ethnicity_combined'. Value counts:
+race_ethnicity_combined
+White, Not Hispanic or Latino                427
+Black, Not Hispanic or Latino                 51
+Hispanic or Latino                            13
+Asian, Not Hispanic or Latino                 10
+Unknown/Missing                                5
+Other/Multiethnic, Not Hispanic or Latino      3
+
+--- Analyzing: Race/Ethnicity (Combined) ---
+JIA-Only Total Patients: 357
+JIA-U Total Patients: 127
+Uveitis-Only Total Patients: 25
+Race/Ethnicity (Combined) (N=509 with valid data)
+(Warning: Expected cell count < 5 in Chi-squared test. P-value may be inaccurate.)
+Category                                      JIA-Only             JIA-U                Uveitis-Only         P-value
+                                              (N=357)              (N=127)              (N=25)               0.0040 (χ²=25.80, dof=10)
+  Asian, Not Hispanic or Latino               9 (2.5%)             1 (0.8%)             0 (0.0%)            
+  Black, Not Hispanic or Latino               24 (6.7%)            19 (15.0%)           8 (32.0%)           
+  Hispanic or Latino                          11 (3.1%)            2 (1.6%)             0 (0.0%)            
+  Other/Multiethnic, Not Hispanic or Latino   2 (0.6%)             1 (0.8%)             0 (0.0%)            
+  Unknown/Missing                             5 (1.4%)             0 (0.0%)             0 (0.0%)            
+  White, Not Hispanic or Latino               306 (85.7%)          104 (81.9%)          17 (68.0%)          
+
+--- Analyzing: Arthritis Onset Year ---
+JIA-Only Total Patients: 357
+JIA-U Total Patients: 127
+Uveitis-Only Total Patients: 25
+Arthritis Onset Year (N=170 with valid numeric data)
+(Skipping p-value: Not enough data in one or more groups)
+Value                               JIA-Only             JIA-U                Uveitis-Only         P-value
+                                    (N=84)               (N=86)               (N=0)                N/A
+  Mean ± SD                 2014.7 ± 2.3         2014.7 ± 2.8         N/A                 
+  Missing/Non-Numeric               273                  41                   25                  
+
+--- Analyzing: Uveitis Onset Year ---
+JIA-Only Total Patients: 357
+JIA-U Total Patients: 127
+Uveitis-Only Total Patients: 25
+Uveitis Onset Year (N=96 with valid numeric data)
+(Skipping p-value: Not enough data in one or more groups)
+Value                               JIA-Only             JIA-U                Uveitis-Only         P-value
+                                    (N=0)                (N=95)               (N=1)                N/A
+  Mean ± SD                 N/A                  2014.7 ± 2.8         2018.0              
+  Missing/Non-Numeric               357                  32                   24                  
+
+--- Calculating Age at Arthritis Onset (from DOB) ---
+Extracting birth years from 'global DOB' as primary source...
+Using 'DOB' as fallback for missing birth years...
+Used 133 birth years from 'global DOB' and 376 from 'DOB'.
+
+--- Analyzing: Age at Arthritis Onset (from DOB) ---
+JIA-Only Total Patients: 357
+JIA-U Total Patients: 127
+Uveitis-Only Total Patients: 25
+Age at Arthritis Onset (from DOB) (N=0 with valid numeric data)
+(Skipping p-value: Not enough data in one or more groups)
+Value                               JIA-Only             JIA-U                Uveitis-Only         P-value
+                                    (N=0)                (N=0)                (N=0)                N/A
+  Mean ± SD                 N/A                  N/A                  N/A                 
+  Missing/Non-Numeric               357                  127                  25                  
+
+--- Calculating Age at Uveitis Onset (from DOB) ---
+
+--- Analyzing: Age at Uveitis Onset (from DOB) ---
+JIA-Only Total Patients: 357
+JIA-U Total Patients: 127
+Uveitis-Only Total Patients: 25
+Age at Uveitis Onset (from DOB) (N=0 with valid numeric data)
+(Skipping p-value: Not enough data in one or more groups)
+Value                               JIA-Only             JIA-U                Uveitis-Only         P-value
+                                    (N=0)                (N=0)                (N=0)                N/A
+  Mean ± SD                 N/A                  N/A                  N/A                 
+  Missing/Non-Numeric               357                  127                  25                  
+
+--- Mapping Uveitis Laterality from 'which eyes are involved ' --- 
+Created 'uveitis_laterality'. Value counts:
+uveitis_laterality
+Unknown/Missing       384
+Bilateral uveitis      93
+Unilateral uveitis     32
+
+--- Analyzing: Uveitis Laterality ---
+JIA-Only Total Patients: 357
+JIA-U Total Patients: 127
+Uveitis-Only Total Patients: 25
+Uveitis Laterality (N=509 with valid data)
+(Warning: Expected cell count < 5 in Chi-squared test. P-value may be inaccurate.)
+Category                                      JIA-Only             JIA-U                Uveitis-Only         P-value
+                                              (N=357)              (N=127)              (N=25)               <0.0001 (χ²=414.06, dof=4)
+  Bilateral uveitis                           0 (0.0%)             70 (55.1%)           23 (92.0%)          
+  Unilateral uveitis                          0 (0.0%)             30 (23.6%)           2 (8.0%)            
+  Unknown/Missing                             357 (100.0%)         27 (21.3%)           0 (0.0%)            
+
+--- Calculating Years between JIA and Uveitis Onset ---
+Found 74 patients with both JIA and Uveitis onset years.
+
+--- Analyzing: Years between JIA and Uveitis Onset ---
+JIA-Only Total Patients: 357
+JIA-U Total Patients: 127
+Uveitis-Only Total Patients: 25
+Years between JIA and Uveitis Onset (N=74 with valid numeric data)
+(Skipping p-value: Not enough data in one or more groups)
+Value                               JIA-Only             JIA-U                Uveitis-Only         P-value
+                                    (N=0)                (N=74)               (N=0)                N/A
+  Mean ± SD                 N/A                  0.0 ± 0.0            N/A                 
+  Missing/Non-Numeric               357                  53                   25                  
+
+--- Calculating Years between JIA Onset and Uveitis Diagnosis ---
+Found 78 patients with both JIA onset and Uveitis diagnosis years.
+
+--- Analyzing: Years between JIA Onset and Uveitis Diagnosis ---
+JIA-Only Total Patients: 357
+JIA-U Total Patients: 127
+Uveitis-Only Total Patients: 25
+Years between JIA Onset and Uveitis Diagnosis (N=78 with valid numeric data)
+(Skipping p-value: Not enough data in one or more groups)
+Value                               JIA-Only             JIA-U                Uveitis-Only         P-value
+                                    (N=0)                (N=78)               (N=0)                N/A
+  Mean ± SD                 N/A                  0.0 ± 0.0            N/A                 
+  Missing/Non-Numeric               357                  49                   25                  
+
+--- Calculating Time from Arthritis Onset ('date of arth onsety') to First Methotrexate ---
+Using start dates from 'medication start date (list distinct)' and treatments from 'cmtrt (list distinct)'
+Extracted onset years for 170 patients.
+Calculation complete. Found valid time differences for 140 patients.
+Time to MTX range: 43.0 to 52.0 years
+Mean time to MTX: 46.6 years
+
+--- Analyzing: Time to Start Methotrexate from JIA Onset (Years) ---
+JIA-Only Total Patients: 357
+JIA-U Total Patients: 127
+Uveitis-Only Total Patients: 25
+Time to Start Methotrexate from JIA Onset (Years) (N=140 with valid numeric data)
+(Skipping p-value: Not enough data in one or more groups)
+Value                               JIA-Only             JIA-U                Uveitis-Only         P-value
+                                    (N=54)               (N=86)               (N=0)                N/A
+  Mean ± SD                 47.5 ± 2.3           46.1 ± 1.9           N/A                 
+  Missing/Non-Numeric               303                  41                   25                  
+
+--- Analyzing Treatments based on 'cmtrt (list distinct)' ---
+
+--- Analyzing: Treated with Methotrexate ---
+JIA-Only Total Patients: 357
+JIA-U Total Patients: 127
+Uveitis-Only Total Patients: 25
+Treated with Methotrexate (N=509 with valid data)
+Category                                      JIA-Only             JIA-U                Uveitis-Only         P-value
+                                              (N=357)              (N=127)              (N=25)               <0.0001 (χ²=200.19, dof=2)
+  False                                       288 (80.7%)          19 (15.0%)           2 (8.0%)            
+  True                                        69 (19.3%)           108 (85.0%)          23 (92.0%)          
+
+--- Analyzing: Treated with Biologic ---
+JIA-Only Total Patients: 357
+JIA-U Total Patients: 127
+Uveitis-Only Total Patients: 25
+Treated with Biologic (N=509 with valid data)
+Category                                      JIA-Only             JIA-U                Uveitis-Only         P-value
+                                              (N=357)              (N=127)              (N=25)               <0.0001 (χ²=104.99, dof=2)
+  False                                       296 (82.9%)          45 (35.4%)           12 (48.0%)          
+  True                                        61 (17.1%)           82 (64.6%)           13 (52.0%)          
+
+--- Analyzing: Treated with Biologic + Methotrexate ---
+JIA-Only Total Patients: 357
+JIA-U Total Patients: 127
+Uveitis-Only Total Patients: 25
+Treated with Biologic + Methotrexate (N=509 with valid data)
+Category                                      JIA-Only             JIA-U                Uveitis-Only         P-value
+                                              (N=357)              (N=127)              (N=25)               <0.0001 (χ²=104.99, dof=2)
+  False                                       296 (82.9%)          45 (35.4%)           12 (48.0%)          
+  True                                        61 (17.1%)           82 (64.6%)           13 (52.0%)          
+(Biologics considered: abatacept, adalimumab, etanercept, golimumab, infliximab, leflunomide, secukinumab, tocilizumab, ustekinumab)
+(Note: Treatment analysis based on presence in semicolon-separated list.)
+
+--- Parsing Relevant Lab/Measure Name/Value Columns --- 
+Parsed 'lab component name (list distinct)'.
+Parsed 'measure name (list distinct)'.
+Parsed 'measure value (list distinct)'.
+Parsed 'measure unit (list distinct)'.
+
+--- Interpreting Lab Values ---
+Warning: Unhandled ESR unit '/HPF' for value .26. Treating as Unknown.
+Applying HLA-B27 fallback for index 4
+Warning: Unhandled ESR unit '/HPF' for value .26. Treating as Unknown.
+Applying HLA-B27 fallback for index 5
+Warning: Unhandled ESR unit 'fL' for value 1.38. Treating as Unknown.
+Applying HLA-B27 fallback for index 12
+Warning: Unhandled ESR unit 'fL' for value 1.38. Treating as Unknown.
+Applying HLA-B27 fallback for index 13
+Warning: Unhandled ESR unit 'fL' for value 1.38. Treating as Unknown.
+Applying HLA-B27 fallback for index 14
+Warning: Unhandled ESR unit 'fL' for value 1.38. Treating as Unknown.
+Applying HLA-B27 fallback for index 15
+Warning: Unhandled Vitamin D unit '%' for value .079. Treating as Unknown.
+Applying HLA-B27 fallback for index 18
+Applying HLA-B27 fallback for index 22
+Applying HLA-B27 fallback for index 23
+Applying HLA-B27 fallback for index 24
+Warning: Unhandled ESR unit 'IU/mL' for value 0. Treating as Unknown.
+Applying HLA-B27 fallback for index 27
+Warning: Unhandled ESR unit 'Cells' for value .197. Treating as Unknown.
+Warning: Unhandled ESR unit 'Cells' for value .197. Treating as Unknown.
+Warning: Unhandled ESR unit 'Cells' for value .197. Treating as Unknown.
+Applying HLA-B27 fallback for index 46
+Warning: Unhandled ESR unit 'Cells' for value 0. Treating as Unknown.
+Warning: Unhandled ESR unit 'Cells' for value .197. Treating as Unknown.
+Warning: Unhandled ESR unit 'pg/mL' for value 51.476. Treating as Unknown.
+Warning: Unhandled ESR unit 'CU' for value .5. Treating as Unknown.
+Warning: Unhandled ESR unit 'CU' for value .5. Treating as Unknown.
+Applying HLA-B27 fallback for index 59
+Warning: Unhandled Vitamin D unit '%' for value .13. Treating as Unknown.
+Applying HLA-B27 fallback for index 62
+Applying HLA-B27 fallback for index 65
+Warning: Unhandled ESR unit 'ng/dL' for value 3. Treating as Unknown.
+Applying HLA-B27 fallback for index 67
+Applying HLA-B27 fallback for index 69
+Warning: Unhandled Vitamin D unit '%' for value 0. Treating as Unknown.
+Warning: Unhandled Vitamin D unit '%' for value 0. Treating as Unknown.
+Warning: Unhandled ESR unit 'International Units/mL' for value .394. Treating as Unknown.
+Applying HLA-B27 fallback for index 112
+Applying HLA-B27 fallback for index 113
+Applying HLA-B27 fallback for index 114
+Applying HLA-B27 fallback for index 117
+Applying HLA-B27 fallback for index 118
+Applying HLA-B27 fallback for index 121
+Applying HLA-B27 fallback for index 122
+Applying HLA-B27 fallback for index 123
+Applying HLA-B27 fallback for index 124
+Applying HLA-B27 fallback for index 125
+Applying HLA-B27 fallback for index 126
+Applying HLA-B27 fallback for index 127
+Applying HLA-B27 fallback for index 128
+Applying HLA-B27 fallback for index 130
+Applying HLA-B27 fallback for index 136
+Applying HLA-B27 fallback for index 137
+Applying HLA-B27 fallback for index 138
+Applying HLA-B27 fallback for index 139
+Applying HLA-B27 fallback for index 140
+Warning: Unhandled ESR unit 'Cells' for value .5. Treating as Unknown.
+Applying HLA-B27 fallback for index 159
+Applying HLA-B27 fallback for index 162
+Applying HLA-B27 fallback for index 163
+Applying HLA-B27 fallback for index 164
+Applying HLA-B27 fallback for index 170
+Warning: Unhandled ESR unit 'K/mcL' for value .197. Treating as Unknown.
+Applying HLA-B27 fallback for index 174
+Applying HLA-B27 fallback for index 175
+Applying HLA-B27 fallback for index 176
+Warning: Unhandled ESR unit 'CU' for value .85. Treating as Unknown.
+Applying HLA-B27 fallback for index 186
+Warning: Unhandled ESR unit 'x10(3)/mcL' for value 101.2. Treating as Unknown.
+Warning: Unhandled ESR unit 'x10(3)/mcL' for value 101.2. Treating as Unknown.
+Warning: Unhandled ESR unit 'x10(3)/mcL' for value 101.2. Treating as Unknown.
+Warning: Unhandled ESR unit 'x10(3)/mcL' for value 101.2. Treating as Unknown.
+Warning: Unhandled ESR unit 'x10(3)/mcL' for value 101.2. Treating as Unknown.
+Warning: Unhandled ESR unit 'x10(3)/mcL' for value 101.2. Treating as Unknown.
+Warning: Unhandled ESR unit 'x10(3)/mcL' for value 101.2. Treating as Unknown.
+Applying HLA-B27 fallback for index 197
+Warning: Unhandled ESR unit '/HPF' for value .5. Treating as Unknown.
+Applying HLA-B27 fallback for index 200
+Warning: Unhandled ESR unit 'unit(s)' for value 41.929. Treating as Unknown.
+Applying HLA-B27 fallback for index 225
+Applying HLA-B27 fallback for index 226
+Applying HLA-B27 fallback for index 227
+Applying HLA-B27 fallback for index 228
+Applying HLA-B27 fallback for index 229
+Applying HLA-B27 fallback for index 230
+Applying HLA-B27 fallback for index 231
+Applying HLA-B27 fallback for index 232
+Warning: Unhandled ESR unit 'K/mcL' for value 0. Treating as Unknown.
+Applying HLA-B27 fallback for index 237
+Warning: Unhandled ESR unit 'unit/mL' for value 95.9. Treating as Unknown.
+Warning: Unhandled ESR unit '/HPF' for value 0. Treating as Unknown.
+Applying HLA-B27 fallback for index 240
+Warning: Unhandled ESR unit 'mL/mmHg/min' for value 4. Treating as Unknown.
+Applying HLA-B27 fallback for index 245
+Warning: Unhandled ESR unit 'K/mcL' for value 0. Treating as Unknown.
+Applying HLA-B27 fallback for index 250
+Applying HLA-B27 fallback for index 251
+Applying HLA-B27 fallback for index 252
+Applying HLA-B27 fallback for index 253
+Applying HLA-B27 fallback for index 254
+Warning: Unhandled ESR unit '%PCV' for value .1. Treating as Unknown.
+Applying HLA-B27 fallback for index 255
+Warning: Unhandled ESR unit '%PCV' for value .1. Treating as Unknown.
+Applying HLA-B27 fallback for index 256
+Warning: Unhandled ESR unit '%PCV' for value .1. Treating as Unknown.
+Applying HLA-B27 fallback for index 257
+Warning: Unhandled ESR unit '%PCV' for value .1. Treating as Unknown.
+Applying HLA-B27 fallback for index 258
+Warning: Unhandled ESR unit '%PCV' for value .1. Treating as Unknown.
+Applying HLA-B27 fallback for index 259
+Warning: Unhandled ESR unit '%PCV' for value .1. Treating as Unknown.
+Applying HLA-B27 fallback for index 260
+Warning: Unhandled ESR unit '%PCV' for value .1. Treating as Unknown.
+Applying HLA-B27 fallback for index 261
+Warning: Unhandled ESR unit '%PCV' for value .1. Treating as Unknown.
+Applying HLA-B27 fallback for index 262
+Warning: Unhandled ESR unit '%PCV' for value .1. Treating as Unknown.
+Applying HLA-B27 fallback for index 263
+Warning: Unhandled ESR unit '%PCV' for value .1. Treating as Unknown.
+Applying HLA-B27 fallback for index 264
+Warning: Unhandled ESR unit '%PCV' for value .1. Treating as Unknown.
+Applying HLA-B27 fallback for index 265
+Warning: Unhandled ESR unit '%PCV' for value .1. Treating as Unknown.
+Applying HLA-B27 fallback for index 266
+Warning: Unhandled ESR unit '%PCV' for value .1. Treating as Unknown.
+Applying HLA-B27 fallback for index 267
+Warning: Unhandled ESR unit '%PCV' for value .1. Treating as Unknown.
+Applying HLA-B27 fallback for index 268
+Warning: Unhandled ESR unit '%PCV' for value .1. Treating as Unknown.
+Applying HLA-B27 fallback for index 269
+Warning: Unhandled ESR unit '%PCV' for value .1. Treating as Unknown.
+Applying HLA-B27 fallback for index 270
+Warning: Unhandled ESR unit '%PCV' for value .1. Treating as Unknown.
+Applying HLA-B27 fallback for index 271
+Warning: Unhandled ESR unit '%PCV' for value .1. Treating as Unknown.
+Applying HLA-B27 fallback for index 272
+Warning: Unhandled ESR unit '%PCV' for value .1. Treating as Unknown.
+Applying HLA-B27 fallback for index 273
+Warning: Unhandled ESR unit '%PCV' for value .1. Treating as Unknown.
+Applying HLA-B27 fallback for index 274
+Warning: Unhandled ESR unit '%PCV' for value .1. Treating as Unknown.
+Applying HLA-B27 fallback for index 275
+Warning: Unhandled ESR unit '%PCV' for value .1. Treating as Unknown.
+Applying HLA-B27 fallback for index 276
+Applying HLA-B27 fallback for index 281
+Applying HLA-B27 fallback for index 282
+Applying HLA-B27 fallback for index 283
+Applying HLA-B27 fallback for index 284
+Warning: Unhandled ESR unit 'Cells' for value .8. Treating as Unknown.
+Applying HLA-B27 fallback for index 286
+Applying HLA-B27 fallback for index 289
+Warning: Unhandled ESR unit 'Cells' for value .197. Treating as Unknown.
+Warning: Unhandled ESR unit 'mm3' for value 514.99. Treating as Unknown.
+Warning: Unhandled ESR unit 'International Units/mL' for value .394. Treating as Unknown.
+Warning: Unhandled ESR unit 'International Units/mL' for value .394. Treating as Unknown.
+Warning: Unhandled ESR unit 'International Units/mL' for value .394. Treating as Unknown.
+Applying HLA-B27 fallback for index 308
+Applying HLA-B27 fallback for index 311
+Warning: Unhandled ESR unit 'Cells' for value 1. Treating as Unknown.
+Applying HLA-B27 fallback for index 317
+Applying HLA-B27 fallback for index 318
+Applying HLA-B27 fallback for index 321
+Applying HLA-B27 fallback for index 322
+Applying HLA-B27 fallback for index 323
+Applying HLA-B27 fallback for index 324
+Warning: Unhandled ESR unit 'mg/dL' for value .5. Treating as Unknown.
+Warning: Unhandled ESR unit 'Cells' for value .75. Treating as Unknown.
+Applying HLA-B27 fallback for index 328
+Applying HLA-B27 fallback for index 330
+Warning: Unhandled ESR unit 'gm/dl' for value 3. Treating as Unknown.
+Warning: Unhandled ESR unit '%' for value 0. Treating as Unknown.
+Applying HLA-B27 fallback for index 332
+Warning: Unhandled ESR unit '/HPF' for value .197. Treating as Unknown.
+Warning: Unhandled ESR unit '/HPF' for value .197. Treating as Unknown.
+Warning: Unhandled ESR unit '/HPF' for value .197. Treating as Unknown.
+Applying HLA-B27 fallback for index 338
+Applying HLA-B27 fallback for index 342
+Applying HLA-B27 fallback for index 343
+Applying HLA-B27 fallback for index 344
+Applying HLA-B27 fallback for index 345
+Warning: Unhandled ESR unit '/HPF' for value .394. Treating as Unknown.
+Applying HLA-B27 fallback for index 347
+Applying HLA-B27 fallback for index 348
+Applying HLA-B27 fallback for index 351
+Warning: Unhandled ESR unit '/HPF' for value 1. Treating as Unknown.
+Applying HLA-B27 fallback for index 358
+Applying HLA-B27 fallback for index 359
+Applying HLA-B27 fallback for index 369
+Applying HLA-B27 fallback for index 370
+Applying HLA-B27 fallback for index 371
+Applying HLA-B27 fallback for index 372
+Applying HLA-B27 fallback for index 373
+Applying HLA-B27 fallback for index 374
+Applying HLA-B27 fallback for index 375
+Applying HLA-B27 fallback for index 376
+Applying HLA-B27 fallback for index 377
+Applying HLA-B27 fallback for index 378
+Applying HLA-B27 fallback for index 379
+Applying HLA-B27 fallback for index 380
+Applying HLA-B27 fallback for index 381
+Applying HLA-B27 fallback for index 382
+Applying HLA-B27 fallback for index 385
+Applying HLA-B27 fallback for index 386
+Applying HLA-B27 fallback for index 390
+Applying HLA-B27 fallback for index 391
+Applying HLA-B27 fallback for index 392
+Applying HLA-B27 fallback for index 393
+Applying HLA-B27 fallback for index 394
+Applying HLA-B27 fallback for index 395
+Applying HLA-B27 fallback for index 396
+Applying HLA-B27 fallback for index 397
+Applying HLA-B27 fallback for index 398
+Warning: Unhandled ESR unit 'AU/mL' for value 0. Treating as Unknown.
+Warning: Unhandled ESR unit 'x10(3)/mcL' for value 5. Treating as Unknown.
+Applying HLA-B27 fallback for index 404
+Warning: Unhandled ESR unit 'K/mcL' for value .8. Treating as Unknown.
+Applying HLA-B27 fallback for index 417
+Applying HLA-B27 fallback for index 421
+Applying HLA-B27 fallback for index 425
+Applying HLA-B27 fallback for index 428
+Warning: Unhandled ESR unit '/HPF' for value 0. Treating as Unknown.
+Applying HLA-B27 fallback for index 439
+Applying HLA-B27 fallback for index 453
+Applying HLA-B27 fallback for index 454
+Applying HLA-B27 fallback for index 455
+Applying HLA-B27 fallback for index 456
+Applying HLA-B27 fallback for index 457
+Applying HLA-B27 fallback for index 471
+Applying HLA-B27 fallback for index 472
+Applying HLA-B27 fallback for index 473
+Applying HLA-B27 fallback for index 474
+Applying HLA-B27 fallback for index 475
+Applying HLA-B27 fallback for index 476
+Applying HLA-B27 fallback for index 477
+Applying HLA-B27 fallback for index 484
+Applying HLA-B27 fallback for index 485
+Applying HLA-B27 fallback for index 503
+Applying HLA-B27 fallback for index 504
+Warning: Unhandled ESR unit 'M/mcL' for value .46. Treating as Unknown.
+Warning: Unhandled ESR unit 'Cells' for value .394. Treating as Unknown.
+--- Calculating Stats for Interpreted Lab Values ---
+
+--- Analyzing: ANA Positivity (Interpreted) ---
+JIA-Only Total Patients: 357
+JIA-U Total Patients: 127
+Uveitis-Only Total Patients: 25
+ANA Positivity (Interpreted) (N=509 with valid data)
+Category                                      JIA-Only             JIA-U                Uveitis-Only         P-value
+                                              (N=357)              (N=127)              (N=25)               <0.0001 (χ²=35.52, dof=2)
+  False                                       263 (73.7%)          64 (50.4%)           25 (100.0%)         
+  True                                        94 (26.3%)           63 (49.6%)           0 (0.0%)            
+
+--- Analyzing: HLA-B27 Positivity (Interpreted) ---
+JIA-Only Total Patients: 357
+JIA-U Total Patients: 127
+Uveitis-Only Total Patients: 25
+HLA-B27 Positivity (Interpreted) (N=509 with valid data)
+Category                                      JIA-Only             JIA-U                Uveitis-Only         P-value
+                                              (N=357)              (N=127)              (N=25)               <0.0001 (χ²=38.88, dof=2)
+  False                                       263 (73.7%)          62 (48.8%)           25 (100.0%)         
+  True                                        94 (26.3%)           65 (51.2%)           0 (0.0%)            
+
+--- Analyzing: ESR Status (Interpreted) ---
+JIA-Only Total Patients: 357
+JIA-U Total Patients: 127
+Uveitis-Only Total Patients: 25
+ESR Status (Interpreted) (N=264 with valid data)
+ (Threshold for High: >= 11 mm/hr)
+(Warning: Expected cell count < 5 in Chi-squared test. P-value may be inaccurate.)
+Category                                      JIA-Only             JIA-U                Uveitis-Only         P-value
+                                              (N=170)              (N=87)               (N=7)                0.0165 (χ²=8.21, dof=2)
+  High                                        142 (83.5%)          61 (70.1%)           7 (100.0%)          
+  Not High                                    28 (16.5%)           26 (29.9%)           0 (0.0%)            
+
+--- Analyzing: Vitamin D Status (Interpreted) ---
+JIA-Only Total Patients: 357
+JIA-U Total Patients: 127
+Uveitis-Only Total Patients: 25
+Vitamin D Status (Interpreted) (N=27 with valid data)
+ (Threshold for Low: <= 19 ng/mL, assumes conversion from nmol/L if needed)
+(Note: Statistical testing skipped - data available for only one group or no groups)
+Category                                      JIA-Only             JIA-U                Uveitis-Only         P-value
+                                              (N=27)               (N=0)                (N=0)                N/A (insufficient data for comparison)
+  Low                                         5 (18.5%)            0 (0.0%)             0 (0.0%)            
+  Not Low                                     22 (81.5%)           0 (0.0%)             0 (0.0%)            
+Saved patient groups to patient_groups.csv
+
+========= Analysis Complete =========

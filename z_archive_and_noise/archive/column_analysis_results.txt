@@ -1,0 +1,3907 @@
+Successfully read CSV with shape: (152, 538)
+
+COLUMN ANALYSIS:
+==================================================
+
+1. Global Subject ID
+   Type: object
+   Non-null values: 152/152 (100.0%)
+   Unique values: 36 (23.7% of non-null)
+   Column category: Identifier
+   Sample values: ['005D0A1E2B', '005D0A1E2B', '005D0A1E2B', '005D0A1E2B', '0B17E4FFEB']
+
+2. LOCUS study ID
+   Type: float64
+   Non-null values: 133/152 (87.5%)
+   Unique values: 19 (14.3% of non-null)
+   Column category: Identifier
+   Sample values: [1219.0, 1219.0, 1219.0, 1219.0, 1001.0]
+
+3. study ID
+   Type: float64
+   Non-null values: 133/152 (87.5%)
+   Unique values: 19 (14.3% of non-null)
+   Column category: Identifier
+   Sample values: [1219.0, 1219.0, 1219.0, 1219.0, 1001.0]
+
+4. redcap repeat instance
+   Type: float64
+   Non-null values: 132/152 (86.8%)
+   Unique values: 12 (9.1% of non-null)
+   Column category: Numeric measurement
+   Sample values: [1.0, 2.0, 3.0, 4.0, 1.0]
+
+5. enrollment date
+   Type: float64
+   Non-null values: 133/152 (87.5%)
+   Unique values: 4 (3.0% of non-null)
+   Column category: Date/Time
+   Sample values: [2019.0, 2019.0, 2019.0, 2019.0, 2017.0]
+
+6. age calc
+   Type: float64
+   Non-null values: 133/152 (87.5%)
+   Unique values: 19 (14.3% of non-null)
+   Column category: Demographic information
+   Sample values: [15.7, 15.7, 15.7, 15.7, 6.84]
+
+7. jia subtype 
+   Type: object
+   Non-null values: 86/152 (56.6%)
+   Unique values: 4 (4.7% of non-null)
+   Column category: Other/Unknown
+   Sample values: ['Polyarticular RF-', 'Polyarticular RF-', 'Polyarticular RF-', 'Polyarticular RF-', 'Oligoarticular, persistent']
+
+8. date of arthritis onset
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Date/Time
+   Sample values: [No non-null values]
+
+9. date of arth onsetd 
+   Type: object
+   Non-null values: 86/152 (56.6%)
+   Unique values: 3 (3.5% of non-null)
+   Column category: Date/Time
+   Sample values: ['Unknown', 'Unknown', 'Unknown', 'Unknown', 'Unknown']
+
+10. date of arth onsety
+   Type: float64
+   Non-null values: 86/152 (56.6%)
+   Unique values: 7 (8.1% of non-null)
+   Column category: Date/Time
+   Sample values: [2012.0, 2012.0, 2012.0, 2012.0, 2021.0]
+
+11. date of arth onsetm 
+   Type: object
+   Non-null values: 86/152 (56.6%)
+   Unique values: 8 (9.3% of non-null)
+   Column category: Date/Time
+   Sample values: ['Unknown', 'Unknown', 'Unknown', 'Unknown', 'January']
+
+12. date of arth diagd 
+   Type: object
+   Non-null values: 98/152 (64.5%)
+   Unique values: 9 (9.2% of non-null)
+   Column category: Date/Time
+   Sample values: ['21', '21', '21', '21', 'Unknown']
+
+13. date of arth diagm 
+   Type: object
+   Non-null values: 98/152 (64.5%)
+   Unique values: 6 (6.1% of non-null)
+   Column category: Date/Time
+   Sample values: ['August', 'August', 'August', 'August', 'August']
+
+14. date of arth diagnosi
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Date/Time
+   Sample values: [No non-null values]
+
+15. date of arth diagy
+   Type: float64
+   Non-null values: 98/152 (64.5%)
+   Unique values: 6 (6.1% of non-null)
+   Column category: Date/Time
+   Sample values: [2018.0, 2018.0, 2018.0, 2018.0, 2013.0]
+
+16. date of uv diagnosisd 
+   Type: object
+   Non-null values: 125/152 (82.2%)
+   Unique values: 14 (11.2% of non-null)
+   Column category: Date/Time
+   Sample values: ['30', '30', '30', '30', '17']
+
+17. date of uv diagnosism 
+   Type: object
+   Non-null values: 125/152 (82.2%)
+   Unique values: 11 (8.8% of non-null)
+   Column category: Date/Time
+   Sample values: ['May', 'May', 'May', 'May', 'December']
+
+18. date of uv diagnosisy
+   Type: float64
+   Non-null values: 124/152 (81.6%)
+   Unique values: 8 (6.5% of non-null)
+   Column category: Date/Time
+   Sample values: [2019.0, 2019.0, 2019.0, 2019.0, 2016.0]
+
+19. date of uveitis diagnosis
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Date/Time
+   Sample values: [No non-null values]
+
+20. diagnosis of arthritis
+   Type: object
+   Non-null values: 98/152 (64.5%)
+   Unique values: 1 (1.0% of non-null)
+   Column category: Date/Time
+   Sample values: [True, True, True, True, True]
+
+21. diagnosis of uveitis
+   Type: object
+   Non-null values: 125/152 (82.2%)
+   Unique values: 1 (0.8% of non-null)
+   Column category: Date/Time
+   Sample values: [True, True, True, True, True]
+
+22. date of uv onsetd 
+   Type: object
+   Non-null values: 96/152 (63.2%)
+   Unique values: 11 (11.5% of non-null)
+   Column category: Date/Time
+   Sample values: ['17', '17', '17', '17', '17']
+
+23. date of uv onsetm 
+   Type: object
+   Non-null values: 96/152 (63.2%)
+   Unique values: 8 (8.3% of non-null)
+   Column category: Date/Time
+   Sample values: ['December', 'December', 'December', 'December', 'December']
+
+24. date of uv onsetunk 
+   Type: object
+   Non-null values: 29/152 (19.1%)
+   Unique values: 1 (3.4% of non-null)
+   Column category: Date/Time
+   Sample values: ['Date unknown', 'Date unknown', 'Date unknown', 'Date unknown', 'Date unknown']
+
+25. date of uv onsety
+   Type: float64
+   Non-null values: 96/152 (63.2%)
+   Unique values: 7 (7.3% of non-null)
+   Column category: Date/Time
+   Sample values: [2016.0, 2016.0, 2016.0, 2016.0, 2016.0]
+
+26. date of uveitis onset
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Date/Time
+   Sample values: [No non-null values]
+
+27. uveitis location 
+   Type: object
+   Non-null values: 125/152 (82.2%)
+   Unique values: 3 (2.4% of non-null)
+   Column category: Other/Unknown
+   Sample values: ['Panuveitis', 'Panuveitis', 'Panuveitis', 'Panuveitis', 'Anterior']
+
+28. which eyes are involved 
+   Type: object
+   Non-null values: 125/152 (82.2%)
+   Unique values: 3 (2.4% of non-null)
+   Column category: Other/Unknown
+   Sample values: ['Right', 'Right', 'Right', 'Right', 'Both']
+
+29. which eyes initially 
+   Type: object
+   Non-null values: 125/152 (82.2%)
+   Unique values: 3 (2.4% of non-null)
+   Column category: Other/Unknown
+   Sample values: ['Right', 'Right', 'Right', 'Right', 'Both']
+
+30. uv typedx 
+   Type: object
+   Non-null values: 125/152 (82.2%)
+   Unique values: 2 (1.6% of non-null)
+   Column category: Other/Unknown
+   Sample values: ['Non JIA-U', 'Non JIA-U', 'Non JIA-U', 'Non JIA-U', 'Non JIA-U']
+
+31. uveitis curr
+   Type: object
+   Non-null values: 84/152 (55.3%)
+   Unique values: 1 (1.2% of non-null)
+   Column category: Other/Unknown
+   Sample values: [True, True, True, True, True]
+
+32. prev uvei diag
+   Type: object
+   Non-null values: 132/152 (86.8%)
+   Unique values: 1 (0.8% of non-null)
+   Column category: Other/Unknown
+   Sample values: [True, True, True, True, True]
+
+33. uveitis curr fup
+   Type: object
+   Non-null values: 106/152 (69.7%)
+   Unique values: 1 (0.9% of non-null)
+   Column category: Other/Unknown
+   Sample values: [True, True, True, True, True]
+
+34. uvei diag fup 
+   Type: object
+   Non-null values: 132/152 (86.8%)
+   Unique values: 2 (1.5% of non-null)
+   Column category: Other/Unknown
+   Sample values: ['Previous diagnosis', 'Previous diagnosis', 'Previous diagnosis', 'Previous diagnosis', 'Previous diagnosis']
+
+35. uvei new case onset
+   Type: object
+   Non-null values: 8/152 (5.3%)
+   Unique values: 1 (12.5% of non-null)
+   Column category: Date/Time
+   Sample values: ['2018-10-19', '2018-10-19', '2018-10-19', '2018-10-19', '2018-10-19']
+
+36. eyes invovled fup 
+   Type: object
+   Non-null values: 8/152 (5.3%)
+   Unique values: 1 (12.5% of non-null)
+   Column category: Other/Unknown
+   Sample values: ['Both', 'Both', 'Both', 'Both', 'Both']
+
+37. dsdecod 
+   Type: object
+   Non-null values: 133/152 (87.5%)
+   Unique values: 2 (1.5% of non-null)
+   Column category: Other/Unknown
+   Sample values: ['Study Close Out', 'Study Close Out', 'Study Close Out', 'Study Close Out', 'Study Close Out']
+
+38. dsrsn 
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Other/Unknown
+   Sample values: [No non-null values]
+
+39. eye drop start date (list distinct)
+   Type: object
+   Non-null values: 133/152 (87.5%)
+   Unique values: 16 (12.0% of non-null)
+   Column category: Date/Time
+   Contains semicolon-separated values: Yes
+   Sample values: ['2019; 2020', '2019; 2020', '2019; 2020', '2019; 2020', '2016; 2017; 2018; 2021; 2022']
+
+40. eye drop end date (list distinct)
+   Type: object
+   Non-null values: 133/152 (87.5%)
+   Unique values: 15 (11.3% of non-null)
+   Column category: Date/Time
+   Contains semicolon-separated values: Yes
+   Sample values: ['2019; 2020; 2021', '2019; 2020; 2021', '2019; 2020; 2021', '2019; 2020; 2021', '2017; 2018; 2021; 2022']
+
+41. LOCUS study ID_alt6
+   Type: float64
+   Non-null values: 133/152 (87.5%)
+   Unique values: 19 (14.3% of non-null)
+   Column category: Identifier
+   Sample values: [1219.0, 1219.0, 1219.0, 1219.0, 1001.0]
+
+42. cmeyes  (list distinct)
+   Type: object
+   Non-null values: 133/152 (87.5%)
+   Unique values: 3 (2.3% of non-null)
+   Column category: Other/Unknown
+   Sample values: ['Right eye (OD)', 'Right eye (OD)', 'Right eye (OD)', 'Right eye (OD)', 'Left eye (OS); Right eye (OD)']
+
+43. cmeyetrt (list distinct)
+   Type: object
+   Non-null values: 133/152 (87.5%)
+   Unique values: 19 (14.3% of non-null)
+   Column category: Medication/Treatment
+   Contains semicolon-separated values: Yes
+   Sample values: ['Difluprednate; Dorzolamide timolol; Fluorometholon...', 'Difluprednate; Dorzolamide timolol; Fluorometholon...', 'Difluprednate; Dorzolamide timolol; Fluorometholon...', 'Difluprednate; Dorzolamide timolol; Fluorometholon...', 'Brinzolamide 1%; Cosopt; Difluprednate 0.05%; Dorz...']
+
+44. cmeyedstxt (list distinct)
+   Type: object
+   Non-null values: 133/152 (87.5%)
+   Unique values: 2 (1.5% of non-null)
+   Column category: Other/Unknown
+   Sample values: ['1.0', '1.0', '1.0', '1.0', '1.0; 2.0']
+
+45. cmeyedosu  (list distinct)
+   Type: object
+   Non-null values: 133/152 (87.5%)
+   Unique values: 1 (0.8% of non-null)
+   Column category: Other/Unknown
+   Sample values: ['Drop', 'Drop', 'Drop', 'Drop', 'Drop']
+
+46. cmeyedosuoth (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Other/Unknown
+   Sample values: [No non-null values]
+
+47. eye drop start date (list distinct)_alt1
+   Type: object
+   Non-null values: 133/152 (87.5%)
+   Unique values: 16 (12.0% of non-null)
+   Column category: Date/Time
+   Contains semicolon-separated values: Yes
+   Sample values: ['2019; 2020', '2019; 2020', '2019; 2020', '2019; 2020', '2016; 2017; 2018; 2021; 2022']
+
+48. eye drop end date (list distinct)_alt1
+   Type: object
+   Non-null values: 133/152 (87.5%)
+   Unique values: 15 (11.3% of non-null)
+   Column category: Date/Time
+   Contains semicolon-separated values: Yes
+   Sample values: ['2019; 2020; 2021', '2019; 2020; 2021', '2019; 2020; 2021', '2019; 2020; 2021', '2017; 2018; 2021; 2022']
+
+49. cmeyedosfrqoth (list distinct)
+   Type: object
+   Non-null values: 59/152 (38.8%)
+   Unique values: 7 (11.9% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['5x Daily; QID M-F 6xD Sat and Sun; weekly', '5x Daily; QID M-F 6xD Sat and Sun; weekly', '5x Daily; QID M-F 6xD Sat and Sun; weekly', '5x Daily; QID M-F 6xD Sat and Sun; weekly', '5x Daily; QID M-F 6xD Sat and Sun; weekly']
+
+50. cmeyedosfrq  (list distinct)
+   Type: object
+   Non-null values: 133/152 (87.5%)
+   Unique values: 19 (14.3% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['2x daily (BID); 3x daily (TID); 4x daily (QID); 4x...', '2x daily (BID); 3x daily (TID); 4x daily (QID); 4x...', '2x daily (BID); 3x daily (TID); 4x daily (QID); 4x...', '2x daily (BID); 3x daily (TID); 4x daily (QID); 4x...', '2x daily (BID); 2x weekly; 3x daily (TID); 3x week...']
+
+51. cmeyeongo (list distinct)
+   Type: object
+   Non-null values: 133/152 (87.5%)
+   Unique values: 2 (1.5% of non-null)
+   Column category: Other/Unknown
+   Sample values: ['False', 'False', 'False', 'False', 'False']
+
+52. cmeyeindc  (list distinct)
+   Type: object
+   Non-null values: 133/152 (87.5%)
+   Unique values: 5 (3.8% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['Ocular inflammation; Other', 'Ocular inflammation; Other', 'Ocular inflammation; Other', 'Ocular inflammation; Other', 'Ocular hypertension; Ocular inflammation']
+
+53. cmeyeindcoth (list distinct)
+   Type: object
+   Non-null values: 46/152 (30.3%)
+   Unique values: 4 (8.7% of non-null)
+   Column category: Other/Unknown
+   Sample values: ['Synechiae', 'Synechiae', 'Synechiae', 'Synechiae', 'Surgery; epithelial keratitis']
+
+54. cmeyenotes (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Other/Unknown
+   Sample values: [No non-null values]
+
+55. medication start date (list distinct)
+   Type: object
+   Non-null values: 131/152 (86.2%)
+   Unique values: 16 (12.2% of non-null)
+   Column category: Date/Time
+   Contains semicolon-separated values: Yes
+   Sample values: ['2019; 2021; 2022; 2023', '2019; 2021; 2022; 2023', '2019; 2021; 2022; 2023', '2019; 2021; 2022; 2023', '2017; 2021; 2024']
+
+56. medication end date (list distinct)
+   Type: object
+   Non-null values: 130/152 (85.5%)
+   Unique values: 15 (11.5% of non-null)
+   Column category: Date/Time
+   Contains semicolon-separated values: Yes
+   Sample values: ['2021; 2022; 2023', '2021; 2022; 2023', '2021; 2022; 2023', '2021; 2022; 2023', '2021; 2024']
+
+57. cmtrt (list distinct)
+   Type: object
+   Non-null values: 131/152 (86.2%)
+   Unique values: 17 (13.0% of non-null)
+   Column category: Medication/Treatment
+   Contains semicolon-separated values: Yes
+   Sample values: ['Infliximab; Methotrexate; methylprednisolone', 'Infliximab; Methotrexate; methylprednisolone', 'Infliximab; Methotrexate; methylprednisolone', 'Infliximab; Methotrexate; methylprednisolone', 'Methotrexate']
+
+58. cmdstxt (list distinct)
+   Type: object
+   Non-null values: 131/152 (86.2%)
+   Unique values: 17 (13.0% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['7.5; 12.5; 25.0; 30.0; 40.0; 200.0; 300.0; 400.0', '7.5; 12.5; 25.0; 30.0; 40.0; 200.0; 300.0; 400.0', '7.5; 12.5; 25.0; 30.0; 40.0; 200.0; 300.0; 400.0', '7.5; 12.5; 25.0; 30.0; 40.0; 200.0; 300.0; 400.0', '15.0; 17.5; 20.0; 25.0']
+
+59. cmdosu  (list distinct)
+   Type: object
+   Non-null values: 131/152 (86.2%)
+   Unique values: 2 (1.5% of non-null)
+   Column category: Other/Unknown
+   Sample values: ['Milligram (mg)', 'Milligram (mg)', 'Milligram (mg)', 'Milligram (mg)', 'Milligram (mg)']
+
+60. cmdosuoth (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Other/Unknown
+   Sample values: [No non-null values]
+
+61. cmdosfrq  (list distinct)
+   Type: object
+   Non-null values: 131/152 (86.2%)
+   Unique values: 16 (12.2% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['4 weeks; Other; Weekly', '4 weeks; Other; Weekly', '4 weeks; Other; Weekly', '4 weeks; Other; Weekly', 'Weekly']
+
+62. cmdosfrqoth (list distinct)
+   Type: object
+   Non-null values: 12/152 (7.9%)
+   Unique values: 3 (25.0% of non-null)
+   Column category: Other/Unknown
+   Sample values: ['4 weeks', '4 weeks', '4 weeks', '4 weeks', 'QOD']
+
+63. cmroute  (list distinct)
+   Type: object
+   Non-null values: 131/152 (86.2%)
+   Unique values: 3 (2.3% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['Intravenous (IV); Subcutaneous (sq)', 'Intravenous (IV); Subcutaneous (sq)', 'Intravenous (IV); Subcutaneous (sq)', 'Intravenous (IV); Subcutaneous (sq)', 'Oral (po); Subcutaneous (sq)']
+
+64. cmrouteoth (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Other/Unknown
+   Sample values: [No non-null values]
+
+65. cmongo (list distinct)
+   Type: object
+   Non-null values: 131/152 (86.2%)
+   Unique values: 3 (2.3% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['False; True', 'False; True', 'False; True', 'False; True', 'False; True']
+
+66. cmindc  (list distinct)
+   Type: object
+   Non-null values: 131/152 (86.2%)
+   Unique values: 7 (5.3% of non-null)
+   Column category: Other/Unknown
+   Sample values: ['Uveitis and arthritis', 'Uveitis and arthritis', 'Uveitis and arthritis', 'Uveitis and arthritis', 'Uveitis']
+
+67. cmindcoth (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Other/Unknown
+   Sample values: [No non-null values]
+
+68. cmnotes (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Other/Unknown
+   Sample values: [No non-null values]
+
+69. eye exam date (list distinct)
+   Type: object
+   Non-null values: 133/152 (87.5%)
+   Unique values: 19 (14.3% of non-null)
+   Column category: Date/Time
+   Contains semicolon-separated values: Yes
+   Sample values: ['2019-05-30; 2019-06-04; 2019-06-14; 2019-06-15; 20...', '2019-05-30; 2019-06-04; 2019-06-14; 2019-06-15; 20...', '2019-05-30; 2019-06-04; 2019-06-14; 2019-06-15; 20...', '2019-05-30; 2019-06-04; 2019-06-14; 2019-06-15; 20...', '2017-01-10; 2017-01-31; 2017-02-21; 2017-03-07; 20...']
+
+70. exam right vadist (list distinct)
+   Type: object
+   Non-null values: 133/152 (87.5%)
+   Unique values: 9 (6.8% of non-null)
+   Column category: Clinical measurement
+   Contains semicolon-separated values: Yes
+   Sample values: ['Distance cc; Distance sc; Near cc', 'Distance cc; Distance sc; Near cc', 'Distance cc; Distance sc; Near cc', 'Distance cc; Distance sc; Near cc', 'Distance cc; Distance sc; Near cc']
+
+71. exam left vadist (list distinct)
+   Type: object
+   Non-null values: 133/152 (87.5%)
+   Unique values: 8 (6.0% of non-null)
+   Column category: Clinical measurement
+   Contains semicolon-separated values: Yes
+   Sample values: ['Distance cc; Distance sc; Near cc', 'Distance cc; Distance sc; Near cc', 'Distance cc; Distance sc; Near cc', 'Distance cc; Distance sc; Near cc', 'Distance cc; Distance sc; Near cc']
+
+72. exam right cell (list distinct)
+   Type: object
+   Non-null values: 133/152 (87.5%)
+   Unique values: 2 (1.5% of non-null)
+   Column category: Clinical measurement
+   Contains semicolon-separated values: Yes
+   Sample values: ['Anterior chamber; Vitreous', 'Anterior chamber; Vitreous', 'Anterior chamber; Vitreous', 'Anterior chamber; Vitreous', 'Anterior chamber; Vitreous']
+
+73. exam right cellcme (list distinct)
+   Type: object
+   Non-null values: 103/152 (67.8%)
+   Unique values: 4 (3.9% of non-null)
+   Column category: Clinical measurement
+   Contains semicolon-separated values: Yes
+   Sample values: ['No; Unknown; Yes', 'No; Unknown; Yes', 'No; Unknown; Yes', 'No; Unknown; Yes', 'No']
+
+74. exam right cellga (list distinct)
+   Type: object
+   Non-null values: 133/152 (87.5%)
+   Unique values: 7 (5.3% of non-null)
+   Column category: Clinical measurement
+   Contains semicolon-separated values: Yes
+   Sample values: ['0 (< 1 cells in field); 0.5+ (1-5 cells in field);...', '0 (< 1 cells in field); 0.5+ (1-5 cells in field);...', '0 (< 1 cells in field); 0.5+ (1-5 cells in field);...', '0 (< 1 cells in field); 0.5+ (1-5 cells in field);...', '0 (< 1 cells in field); 0.5+ (1-5 cells in field);...']
+
+75. exam right cellgv (list distinct)
+   Type: object
+   Non-null values: 103/152 (67.8%)
+   Unique values: 7 (6.8% of non-null)
+   Column category: Clinical measurement
+   Contains semicolon-separated values: Yes
+   Sample values: ['0 (< 1 cells in field); 0.5+ (1-5 cells in field);...', '0 (< 1 cells in field); 0.5+ (1-5 cells in field);...', '0 (< 1 cells in field); 0.5+ (1-5 cells in field);...', '0 (< 1 cells in field); 0.5+ (1-5 cells in field);...', '0 (< 1 cells in field)...']
+
+76. exam left cellcme (list distinct)
+   Type: object
+   Non-null values: 93/152 (61.2%)
+   Unique values: 2 (2.2% of non-null)
+   Column category: Clinical measurement
+   Sample values: ['No', 'No', 'No', 'No', 'No']
+
+77. exam left cell (list distinct)
+   Type: object
+   Non-null values: 133/152 (87.5%)
+   Unique values: 2 (1.5% of non-null)
+   Column category: Clinical measurement
+   Contains semicolon-separated values: Yes
+   Sample values: ['Anterior chamber; Vitreous', 'Anterior chamber; Vitreous', 'Anterior chamber; Vitreous', 'Anterior chamber; Vitreous', 'Anterior chamber; Vitreous']
+
+78. exam left cellga (list distinct)
+   Type: object
+   Non-null values: 133/152 (87.5%)
+   Unique values: 7 (5.3% of non-null)
+   Column category: Clinical measurement
+   Sample values: ['0 (< 1 cells in field)', '0 (< 1 cells in field)', '0 (< 1 cells in field)', '0 (< 1 cells in field)', '0 (< 1 cells in field); 0.5+ (1-5 cells in field); 1+ (6-15 cells in field)']
+
+79. exam left cellgv (list distinct)
+   Type: object
+   Non-null values: 93/152 (61.2%)
+   Unique values: 4 (4.3% of non-null)
+   Column category: Clinical measurement
+   Sample values: ['0 (< 1 cells in field)', '0 (< 1 cells in field)', '0 (< 1 cells in field)', '0 (< 1 cells in field)', '0 (< 1 cells in field)']
+
+80. exam right flare (list distinct)
+   Type: object
+   Non-null values: 133/152 (87.5%)
+   Unique values: 2 (1.5% of non-null)
+   Column category: Clinical measurement
+   Contains semicolon-separated values: Yes
+   Sample values: ['Anterior chamber; Vitreous', 'Anterior chamber; Vitreous', 'Anterior chamber; Vitreous', 'Anterior chamber; Vitreous', 'Anterior chamber; Vitreous']
+
+81. exam right flarecme (list distinct)
+   Type: object
+   Non-null values: 99/152 (65.1%)
+   Unique values: 3 (3.0% of non-null)
+   Column category: Clinical measurement
+   Contains semicolon-separated values: Yes
+   Sample values: ['No; Unknown; Yes', 'No; Unknown; Yes', 'No; Unknown; Yes', 'No; Unknown; Yes', 'No']
+
+82. exam right flarega (list distinct)
+   Type: object
+   Non-null values: 133/152 (87.5%)
+   Unique values: 5 (3.8% of non-null)
+   Column category: Clinical measurement
+   Contains semicolon-separated values: Yes
+   Sample values: ['0 (< 1 cells in field); 0.5+ (1-5 cells in field);...', '0 (< 1 cells in field); 0.5+ (1-5 cells in field);...', '0 (< 1 cells in field); 0.5+ (1-5 cells in field);...', '0 (< 1 cells in field); 0.5+ (1-5 cells in field);...', '0 (< 1 cells in field); 0.5+ (1-5 cells in field)...']
+
+83. exam right flaregv (list distinct)
+   Type: object
+   Non-null values: 99/152 (65.1%)
+   Unique values: 2 (2.0% of non-null)
+   Column category: Clinical measurement
+   Contains semicolon-separated values: Yes
+   Sample values: ['0 (< 1 cells in field); 0.5+ (1-5 cells in field)', '0 (< 1 cells in field); 0.5+ (1-5 cells in field)', '0 (< 1 cells in field); 0.5+ (1-5 cells in field)', '0 (< 1 cells in field); 0.5+ (1-5 cells in field)', '0 (< 1 cells in field)']
+
+84. exam left flarecme (list distinct)
+   Type: object
+   Non-null values: 93/152 (61.2%)
+   Unique values: 3 (3.2% of non-null)
+   Column category: Clinical measurement
+   Sample values: ['No', 'No', 'No', 'No', 'No']
+
+85. exam left flare (list distinct)
+   Type: object
+   Non-null values: 133/152 (87.5%)
+   Unique values: 2 (1.5% of non-null)
+   Column category: Clinical measurement
+   Contains semicolon-separated values: Yes
+   Sample values: ['Anterior chamber; Vitreous', 'Anterior chamber; Vitreous', 'Anterior chamber; Vitreous', 'Anterior chamber; Vitreous', 'Anterior chamber; Vitreous']
+
+86. exam left flarega (list distinct)
+   Type: object
+   Non-null values: 133/152 (87.5%)
+   Unique values: 7 (5.3% of non-null)
+   Column category: Clinical measurement
+   Contains semicolon-separated values: Yes
+   Sample values: ['0 (< 1 cells in field); 1+ (6-15 cells in field)', '0 (< 1 cells in field); 1+ (6-15 cells in field)', '0 (< 1 cells in field); 1+ (6-15 cells in field)', '0 (< 1 cells in field); 1+ (6-15 cells in field)', '0 (< 1 cells in field); 0.5+ (1-5 cells in field)']
+
+87. exam left flaregv (list distinct)
+   Type: object
+   Non-null values: 93/152 (61.2%)
+   Unique values: 2 (2.2% of non-null)
+   Column category: Clinical measurement
+   Sample values: ['0 (< 1 cells in field)', '0 (< 1 cells in field)', '0 (< 1 cells in field)', '0 (< 1 cells in field)', '0 (< 1 cells in field)']
+
+88. oscompoth (list distinct)
+   Type: object
+   Non-null values: 30/152 (19.7%)
+   Unique values: 4 (13.3% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['Posterior synechiare; optic nerve edema', 'Posterior synechiare; optic nerve edema', 'Posterior synechiare; optic nerve edema', 'Posterior synechiare; optic nerve edema', 'Iris bombe']
+
+89. oscomp  (list distinct)
+   Type: object
+   Non-null values: 119/152 (78.3%)
+   Unique values: 14 (11.8% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['Cataracts; Cystoid Macular Edema; Ocular Hypertens...', 'Cataracts; Cystoid Macular Edema; Ocular Hypertens...', 'Cataracts; Cystoid Macular Edema; Ocular Hypertens...', 'Cataracts; Cystoid Macular Edema; Ocular Hypertens...', 'Cataracts; Ocular Hypertension...']
+
+90. osongo (list distinct)
+   Type: object
+   Non-null values: 119/152 (78.3%)
+   Unique values: 3 (2.5% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['False; True', 'False; True', 'False; True', 'False; True', 'False; True']
+
+91. osnotes (list distinct)
+   Type: object
+   Non-null values: 64/152 (42.1%)
+   Unique values: 6 (9.4% of non-null)
+   Column category: Other/Unknown
+   Sample values: ['discontinued eye drops', 'discontinued eye drops', 'discontinued eye drops', 'discontinued eye drops', 'discontinued eye drops']
+
+92. surgery start date (list distinct)
+   Type: object
+   Non-null values: 119/152 (78.3%)
+   Unique values: 14 (11.8% of non-null)
+   Column category: Date/Time
+   Contains semicolon-separated values: Yes
+   Sample values: ['2019; 2020', '2019; 2020', '2019; 2020', '2019; 2020', '2017; 2020']
+
+93. surgery end date (list distinct)
+   Type: object
+   Non-null values: 74/152 (48.7%)
+   Unique values: 6 (8.1% of non-null)
+   Column category: Date/Time
+   Contains semicolon-separated values: Yes
+   Sample values: ['2020; 2021', '2020; 2021', '2020; 2021', '2020; 2021', '2017']
+
+94. oseyes  (list distinct)
+   Type: object
+   Non-null values: 119/152 (78.3%)
+   Unique values: 3 (2.5% of non-null)
+   Column category: Other/Unknown
+   Sample values: ['Right eye (OD)', 'Right eye (OD)', 'Right eye (OD)', 'Right eye (OD)', 'Left eye (OS); Right eye (OD)']
+
+95. ossurg (list distinct)
+   Type: object
+   Non-null values: 52/152 (34.2%)
+   Unique values: 4 (7.7% of non-null)
+   Column category: Other/Unknown
+   Sample values: ['Other', 'Other', 'Other', 'Other', 'Cataract Extraction; Other']
+
+96. ossurgoth (list distinct)
+   Type: object
+   Non-null values: 30/152 (19.7%)
+   Unique values: 5 (16.7% of non-null)
+   Column category: Other/Unknown
+   Sample values: ['Band keratopathy', 'Band keratopathy', 'Band keratopathy', 'Band keratopathy', 'Iridectomy; Peripheral iridectomy']
+
+97. ossurgcomp  (list distinct)
+   Type: object
+   Non-null values: 119/152 (78.3%)
+   Unique values: 2 (1.7% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['Complication; Surgery', 'Complication; Surgery', 'Complication; Surgery', 'Complication; Surgery', 'Complication']
+
+98. LOCUS study ID_alt6.1
+   Type: float64
+   Non-null values: 133/152 (87.5%)
+   Unique values: 19 (14.3% of non-null)
+   Column category: Identifier
+   Sample values: [1219.0, 1219.0, 1219.0, 1219.0, 1001.0]
+
+99. child dress  (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 4 (3.4% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty']
+
+100. child dressx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+101. child shampoo  (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 7 (6.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty']
+
+102. child shampoox (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+103. child socks  (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 2 (1.7% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty']
+
+104. child socksx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+105. child nails  (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 6 (5.2% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Contains semicolon-separated values: Yes
+   Sample values: ['Not Applicable; Without ANY Difficulty', 'Not Applicable; Without ANY Difficulty', 'Not Applicable; Without ANY Difficulty', 'Not Applicable; Without ANY Difficulty', 'Without ANY Difficulty']
+
+106. child nailsx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+107. child stand  (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 3 (2.6% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'With SOME Difficulty; Without ANY Difficulty']
+
+108. child standx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+109. child rise bed  (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 2 (1.7% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty']
+
+110. child rise bedx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+111. child cut meatx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+112. child cut meat  (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 9 (7.8% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Contains semicolon-separated values: Yes
+   Sample values: ['Not Applicable; With SOME Difficulty; Without ANY ...', 'Not Applicable; With SOME Difficulty; Without ANY ...', 'Not Applicable; With SOME Difficulty; Without ANY ...', 'Not Applicable; With SOME Difficulty; Without ANY ...', 'With SOME Difficulty; Without ANY Difficulty...']
+
+113. child lift cup  (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 1 (0.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty']
+
+114. child lift cupx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+115. child open box  (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 3 (2.6% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Contains semicolon-separated values: Yes
+   Sample values: ['With SOME Difficulty; Without ANY Difficulty', 'With SOME Difficulty; Without ANY Difficulty', 'With SOME Difficulty; Without ANY Difficulty', 'With SOME Difficulty; Without ANY Difficulty', 'Without ANY Difficulty']
+
+116. child open boxx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+117. child walk  (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 2 (1.7% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty']
+
+118. child walkx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+119. child climb  (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 2 (1.7% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty']
+
+120. child climbx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+121. child wash body  (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 2 (1.7% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty']
+
+122. child wash bodyx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+123. child tub bath  (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 4 (3.4% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty']
+
+124. child tub bathx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+125. child toilet  (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 1 (0.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty']
+
+126. child toiletx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+127. child brush teeth  (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 2 (1.7% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty']
+
+128. child brush teethx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+129. child comb hair  (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 4 (3.4% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Contains semicolon-separated values: Yes
+   Sample values: ['Not Applicable; Without ANY Difficulty', 'Not Applicable; Without ANY Difficulty', 'Not Applicable; Without ANY Difficulty', 'Not Applicable; Without ANY Difficulty', 'Without ANY Difficulty']
+
+130. child comb hairx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+131. child object above headx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+132. child object above head  (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 3 (2.6% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Contains semicolon-separated values: Yes
+   Sample values: ['With SOME Difficulty; Without ANY Difficulty', 'With SOME Difficulty; Without ANY Difficulty', 'With SOME Difficulty; Without ANY Difficulty', 'With SOME Difficulty; Without ANY Difficulty', 'With SOME Difficulty; Without ANY Difficulty']
+
+133. child clothing  (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 2 (1.7% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty']
+
+134. child clothingx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+135. child sweater over head  (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 3 (2.6% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty']
+
+136. child sweater over headx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+137. child look shoulder  (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 2 (1.7% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty']
+
+138. child look shoulderx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+139. child scribblex (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+140. child scribble  (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 2 (1.7% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty']
+
+141. child car door  (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 2 (1.7% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty']
+
+142. child car doorx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+143. child jar  (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 4 (3.4% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Contains semicolon-separated values: Yes
+   Sample values: ['With MUCH Difficulty; With SOME Difficulty; Withou...', 'With MUCH Difficulty; With SOME Difficulty; Withou...', 'With MUCH Difficulty; With SOME Difficulty; Withou...', 'With MUCH Difficulty; With SOME Difficulty; Withou...', 'Without ANY Difficulty...']
+
+144. child jarx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+145. child faucet  (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 1 (0.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty']
+
+146. child faucetx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+147. child doorknobx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+148. child doorknob  (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 2 (1.7% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty']
+
+149. child doorknob  (list distinct).1
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 2 (1.7% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty']
+
+150. child errands shop  (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 5 (4.3% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Contains semicolon-separated values: Yes
+   Sample values: ['Not Applicable; Without ANY Difficulty', 'Not Applicable; Without ANY Difficulty', 'Not Applicable; Without ANY Difficulty', 'Not Applicable; Without ANY Difficulty', 'Without ANY Difficulty']
+
+151. child errands shopx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+152. child car  (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 2 (1.7% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty']
+
+153. child carx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+154. child ride bike (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 4 (3.4% of non-null)
+   Column category: Identifier
+   Sample values: ['Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty']
+
+155. child ride bikex (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Identifier
+   Sample values: [No non-null values]
+
+156. child chores  (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 5 (4.3% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty']
+
+157. child choresx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+158. child play  (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 4 (3.4% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'Without ANY Difficulty', 'With SOME Difficulty; Without ANY Difficulty']
+
+159. child playx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+160. pain slider child (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 10 (8.6% of non-null)
+   Column category: Identifier
+   Contains semicolon-separated values: Yes
+   Sample values: ['0; 3', '0; 3', '0; 3', '0; 3', '0; 11; 25; 50; 60']
+
+161. functioning slider child (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 10 (8.6% of non-null)
+   Column category: Identifier
+   Contains semicolon-separated values: Yes
+   Sample values: ['0; 6', '0; 6', '0; 6', '0; 6', '0; 22; 40']
+
+162. LOCUS study ID_alt6.2
+   Type: float64
+   Non-null values: 133/152 (87.5%)
+   Unique values: 19 (14.3% of non-null)
+   Column category: Identifier
+   Sample values: [1219.0, 1219.0, 1219.0, 1219.0, 1001.0]
+
+163. parent dress  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+164. parent dressx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+165. parent shampoo  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+166. parent shampoox (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+167. parent socksx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+168. parent socks  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+169. parent nails  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+170. parent nailsx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+171. parent stand  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+172. parent standx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+173. parent rise bed  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+174. parent rise bedx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+175. parent cut meat  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+176. parent cut meatx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+177. parent lift cup  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+178. parent lift cupx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+179. parent open box  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+180. parent open boxx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+181. parent walk  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+182. parent walkx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+183. parent climb  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+184. parent climbx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+185. parent wash body  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+186. parent wash bodyx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+187. parent tub bath  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+188. parent tub bathx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+189. parent toilet  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+190. parent toiletx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+191. parent brush teeth  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+192. parent brush teethx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+193. parent comb hair  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+194. parent comb hairx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+195. parent object above head  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+196. parent object above headx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+197. parent pick up clothing  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+198. parent pick up clothingx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+199. parent sweater  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+200. parent sweaterx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+201. parent look shoulder  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+202. parent look shoulderx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+203. parent scribble  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+204. parent scribblex (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+205. parent car door  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+206. parent car doorx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+207. parent jar  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+208. parent jarx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+209. parent faucet  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+210. parent faucetx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+211. parent doorknob  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+212. parent doorknobx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+213. parent errands shop  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+214. parent errands shopx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+215. parent car  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+216. parent carx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+217. parent ride bike (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Identifier
+   Sample values: [No non-null values]
+
+218. parent ride bikex (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Identifier
+   Sample values: [No non-null values]
+
+219. parent chores  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+220. parent choresx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+221. parent play  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+222. parent playx (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+223. pain slider child (list distinct)_alt1
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 10 (8.6% of non-null)
+   Column category: Identifier
+   Contains semicolon-separated values: Yes
+   Sample values: ['0; 3', '0; 3', '0; 3', '0; 3', '0; 11; 25; 50; 60']
+
+224. pain slider (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Identifier
+   Sample values: [No non-null values]
+
+225. functioning slider child (list distinct)_alt1
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 10 (8.6% of non-null)
+   Column category: Identifier
+   Contains semicolon-separated values: Yes
+   Sample values: ['0; 6', '0; 6', '0; 6', '0; 6', '0; 22; 40']
+
+226. functioning slider (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Identifier
+   Sample values: [No non-null values]
+
+227. eqv5y board  (list distinct)
+   Type: object
+   Non-null values: 103/152 (67.8%)
+   Unique values: 6 (5.8% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Never hard', 'Never hard', 'Never hard', 'Never hard', 'Always hard; Never hard; Sometimes hard']
+
+228. mueqv5y board  (list distinct)
+   Type: object
+   Non-null values: 36/152 (23.7%)
+   Unique values: 1 (2.8% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Never hard', 'Never hard', 'Never hard', 'Never hard', 'Never hard']
+
+229. eqv5y tv  (list distinct)
+   Type: object
+   Non-null values: 103/152 (67.8%)
+   Unique values: 3 (2.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Never hard', 'Never hard', 'Never hard', 'Never hard', 'Never hard; Sometimes hard']
+
+230. mueqv5y tv  (list distinct)
+   Type: object
+   Non-null values: 36/152 (23.7%)
+   Unique values: 1 (2.8% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Never hard', 'Never hard', 'Never hard', 'Never hard', 'Never hard']
+
+231. eqv5y express  (list distinct)
+   Type: object
+   Non-null values: 103/152 (67.8%)
+   Unique values: 3 (2.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Contains semicolon-separated values: Yes
+   Sample values: ['Never hard; Sometimes hard', 'Never hard; Sometimes hard', 'Never hard; Sometimes hard', 'Never hard; Sometimes hard', 'Never hard; Sometimes hard']
+
+232. mueqv5y express  (list distinct)
+   Type: object
+   Non-null values: 36/152 (23.7%)
+   Unique values: 1 (2.8% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Never hard', 'Never hard', 'Never hard', 'Never hard', 'Never hard']
+
+233. eqv5y face  (list distinct)
+   Type: object
+   Non-null values: 103/152 (67.8%)
+   Unique values: 3 (2.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Contains semicolon-separated values: Yes
+   Sample values: ['Never hard; Sometimes hard', 'Never hard; Sometimes hard', 'Never hard; Sometimes hard', 'Never hard; Sometimes hard', 'Never hard; Sometimes hard']
+
+234. mueqv5y face  (list distinct)
+   Type: object
+   Non-null values: 36/152 (23.7%)
+   Unique values: 1 (2.8% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Never hard', 'Never hard', 'Never hard', 'Never hard', 'Never hard']
+
+235. eqv5y book  (list distinct)
+   Type: object
+   Non-null values: 103/152 (67.8%)
+   Unique values: 5 (4.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Contains semicolon-separated values: Yes
+   Sample values: ['Never hard; Sometimes hard', 'Never hard; Sometimes hard', 'Never hard; Sometimes hard', 'Never hard; Sometimes hard', 'Always hard; Never hard; Sometimes hard']
+
+236. mueqv5y book  (list distinct)
+   Type: object
+   Non-null values: 36/152 (23.7%)
+   Unique values: 1 (2.8% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Never hard', 'Never hard', 'Never hard', 'Never hard', 'Never hard']
+
+237. eqv5y steps  (list distinct)
+   Type: object
+   Non-null values: 103/152 (67.8%)
+   Unique values: 2 (1.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Never hard', 'Never hard', 'Never hard', 'Never hard', 'Never hard']
+
+238. mueqv5y steps  (list distinct)
+   Type: object
+   Non-null values: 36/152 (23.7%)
+   Unique values: 1 (2.8% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Never hard', 'Never hard', 'Never hard', 'Never hard', 'Never hard']
+
+239. LOCUS study ID_alt6.3
+   Type: float64
+   Non-null values: 133/152 (87.5%)
+   Unique values: 19 (14.3% of non-null)
+   Column category: Identifier
+   Sample values: [1219.0, 1219.0, 1219.0, 1219.0, 1001.0]
+
+240. eqv5y glass  (list distinct)
+   Type: object
+   Non-null values: 103/152 (67.8%)
+   Unique values: 2 (1.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Never hard', 'Never hard', 'Never hard', 'Never hard', 'Never hard']
+
+241. mueqv5y glass  (list distinct)
+   Type: object
+   Non-null values: 36/152 (23.7%)
+   Unique values: 1 (2.8% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Never hard', 'Never hard', 'Never hard', 'Never hard', 'Never hard']
+
+242. eqv5y paper  (list distinct)
+   Type: object
+   Non-null values: 103/152 (67.8%)
+   Unique values: 2 (1.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Never hard', 'Never hard', 'Never hard', 'Never hard', 'Never hard']
+
+243. mueqv5y paper  (list distinct)
+   Type: object
+   Non-null values: 36/152 (23.7%)
+   Unique values: 1 (2.8% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Never hard', 'Never hard', 'Never hard', 'Never hard', 'Never hard']
+
+244. eqv5y sitdark  (list distinct)
+   Type: object
+   Non-null values: 103/152 (67.8%)
+   Unique values: 5 (4.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Contains semicolon-separated values: Yes
+   Sample values: ['Never hard; Sometimes hard', 'Never hard; Sometimes hard', 'Never hard; Sometimes hard', 'Never hard; Sometimes hard', 'Never hard; Sometimes hard']
+
+245. mueqv5y sitdark  (list distinct)
+   Type: object
+   Non-null values: 36/152 (23.7%)
+   Unique values: 1 (2.8% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Never hard', 'Never hard', 'Never hard', 'Never hard', 'Never hard']
+
+246. eqv5y litroom  (list distinct)
+   Type: object
+   Non-null values: 103/152 (67.8%)
+   Unique values: 5 (4.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Contains semicolon-separated values: Yes
+   Sample values: ['Never hard; Sometimes hard', 'Never hard; Sometimes hard', 'Never hard; Sometimes hard', 'Never hard; Sometimes hard', 'Always hard; Never hard; Sometimes hard']
+
+247. mueqv5y litroom  (list distinct)
+   Type: object
+   Non-null values: 36/152 (23.7%)
+   Unique values: 2 (5.6% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Never hard', 'Never hard', 'Never hard', 'Never hard', 'Sometimes hard']
+
+248. eqv5y sunlight  (list distinct)
+   Type: object
+   Non-null values: 103/152 (67.8%)
+   Unique values: 4 (3.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Contains semicolon-separated values: Yes
+   Sample values: ['Never hard; Sometimes hard', 'Never hard; Sometimes hard', 'Never hard; Sometimes hard', 'Never hard; Sometimes hard', 'Always hard; Never hard; Sometimes hard']
+
+249. mueqv5y sunlight  (list distinct)
+   Type: object
+   Non-null values: 36/152 (23.7%)
+   Unique values: 2 (5.6% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Never hard', 'Never hard', 'Never hard', 'Never hard', 'Sometimes hard']
+
+250. eqv5y balls  (list distinct)
+   Type: object
+   Non-null values: 103/152 (67.8%)
+   Unique values: 4 (3.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Contains semicolon-separated values: Yes
+   Sample values: ['Never hard; Sometimes hard', 'Never hard; Sometimes hard', 'Never hard; Sometimes hard', 'Never hard; Sometimes hard', 'Never hard']
+
+251. mueqv5y balls  (list distinct)
+   Type: object
+   Non-null values: 36/152 (23.7%)
+   Unique values: 1 (2.8% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Never hard', 'Never hard', 'Never hard', 'Never hard', 'Never hard']
+
+252. eqv5y cursor  (list distinct)
+   Type: object
+   Non-null values: 103/152 (67.8%)
+   Unique values: 3 (2.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Never hard', 'Never hard', 'Never hard', 'Never hard', 'Never hard; Sometimes hard']
+
+253. mueqv5y cursor  (list distinct)
+   Type: object
+   Non-null values: 36/152 (23.7%)
+   Unique values: 1 (2.8% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Never hard', 'Never hard', 'Never hard', 'Never hard', 'Never hard']
+
+254. eqv5y computer  (list distinct)
+   Type: object
+   Non-null values: 103/152 (67.8%)
+   Unique values: 4 (3.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Contains semicolon-separated values: Yes
+   Sample values: ['Never hard; Sometimes hard', 'Never hard; Sometimes hard', 'Never hard; Sometimes hard', 'Never hard; Sometimes hard', 'Never hard; Sometimes hard']
+
+255. mueqv5y computer  (list distinct)
+   Type: object
+   Non-null values: 36/152 (23.7%)
+   Unique values: 1 (2.8% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Never hard', 'Never hard', 'Never hard', 'Never hard', 'Never hard']
+
+256. eqv5y text  (list distinct)
+   Type: object
+   Non-null values: 103/152 (67.8%)
+   Unique values: 4 (3.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Contains semicolon-separated values: Yes
+   Sample values: ['Does not apply; Never hard', 'Does not apply; Never hard', 'Does not apply; Never hard', 'Does not apply; Never hard', 'Never hard; Sometimes hard']
+
+257. mueqv5y text  (list distinct)
+   Type: object
+   Non-null values: 36/152 (23.7%)
+   Unique values: 1 (2.8% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Never hard', 'Never hard', 'Never hard', 'Never hard', 'Never hard']
+
+258. eqv5y activities  (list distinct)
+   Type: object
+   Non-null values: 103/152 (67.8%)
+   Unique values: 3 (2.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Never hard', 'Never hard', 'Never hard', 'Never hard', 'Never hard; Sometimes hard']
+
+259. mueqv5y activities  (list distinct)
+   Type: object
+   Non-null values: 36/152 (23.7%)
+   Unique values: 1 (2.8% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Never hard', 'Never hard', 'Never hard', 'Never hard', 'Never hard']
+
+260. eqv5y leftout  (list distinct)
+   Type: object
+   Non-null values: 103/152 (67.8%)
+   Unique values: 3 (2.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Never', 'Never', 'Never', 'Never', 'Never']
+
+261. mueqv5y leftout  (list distinct)
+   Type: object
+   Non-null values: 36/152 (23.7%)
+   Unique values: 1 (2.8% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Never', 'Never', 'Never', 'Never', 'Never']
+
+262. eqv5y join  (list distinct)
+   Type: object
+   Non-null values: 103/152 (67.8%)
+   Unique values: 3 (2.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Never', 'Never', 'Never', 'Never', 'Never']
+
+263. mueqv5y join  (list distinct)
+   Type: object
+   Non-null values: 36/152 (23.7%)
+   Unique values: 1 (2.8% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Never', 'Never', 'Never', 'Never', 'Never']
+
+264. eqv5y eyedrop  (list distinct)
+   Type: object
+   Non-null values: 103/152 (67.8%)
+   Unique values: 7 (6.8% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Sometimes', 'Sometimes', 'Sometimes', 'Sometimes', 'Does not apply; Never; Sometimes']
+
+265. mueqv5y eyedrop  (list distinct)
+   Type: object
+   Non-null values: 36/152 (23.7%)
+   Unique values: 2 (5.6% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Sometimes', 'Sometimes', 'Sometimes', 'Sometimes', 'Sometimes']
+
+266. eqv5y stopme  (list distinct)
+   Type: object
+   Non-null values: 103/152 (67.8%)
+   Unique values: 3 (2.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Never', 'Never', 'Never', 'Never', 'Never']
+
+267. mueqv5y stopme  (list distinct)
+   Type: object
+   Non-null values: 36/152 (23.7%)
+   Unique values: 1 (2.8% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Never', 'Never', 'Never', 'Never', 'Never']
+
+268. eqv5y inject  (list distinct)
+   Type: object
+   Non-null values: 103/152 (67.8%)
+   Unique values: 8 (7.8% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Contains semicolon-separated values: Yes
+   Sample values: ['Always; Never; Sometimes', 'Always; Never; Sometimes', 'Always; Never; Sometimes', 'Always; Never; Sometimes', 'Always']
+
+269. mueqv5y inject  (list distinct)
+   Type: object
+   Non-null values: 36/152 (23.7%)
+   Unique values: 2 (5.6% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Sometimes', 'Sometimes', 'Sometimes', 'Sometimes', 'Never']
+
+270. eqv5y know  (list distinct)
+   Type: object
+   Non-null values: 103/152 (67.8%)
+   Unique values: 5 (4.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Contains semicolon-separated values: Yes
+   Sample values: ['Always; Never', 'Always; Never', 'Always; Never', 'Always; Never', 'Never; Sometimes']
+
+271. mueqv5y know  (list distinct)
+   Type: object
+   Non-null values: 36/152 (23.7%)
+   Unique values: 1 (2.8% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Never', 'Never', 'Never', 'Never', 'Never']
+
+272. eqv5y frustrated  (list distinct)
+   Type: object
+   Non-null values: 103/152 (67.8%)
+   Unique values: 4 (3.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Contains semicolon-separated values: Yes
+   Sample values: ['Never; Sometimes', 'Never; Sometimes', 'Never; Sometimes', 'Never; Sometimes', 'Never']
+
+273. mueqv5y frustrated  (list distinct)
+   Type: object
+   Non-null values: 36/152 (23.7%)
+   Unique values: 1 (2.8% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Never', 'Never', 'Never', 'Never', 'Never']
+
+274. eqv5y eyeslook  (list distinct)
+   Type: object
+   Non-null values: 103/152 (67.8%)
+   Unique values: 3 (2.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Contains semicolon-separated values: Yes
+   Sample values: ['Never; Sometimes', 'Never; Sometimes', 'Never; Sometimes', 'Never; Sometimes', 'Never; Sometimes']
+
+275. mueqv5y eyeslook  (list distinct)
+   Type: object
+   Non-null values: 32/152 (21.1%)
+   Unique values: 1 (3.1% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Never', 'Never', 'Never', 'Never', 'Never']
+
+276. eqv5y largeprint  (list distinct)
+   Type: object
+   Non-null values: 103/152 (67.8%)
+   Unique values: 4 (3.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Never', 'Never', 'Never', 'Never', 'Does not apply; Never']
+
+277. mueqv5y largeprint  (list distinct)
+   Type: object
+   Non-null values: 36/152 (23.7%)
+   Unique values: 1 (2.8% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Does not apply', 'Does not apply', 'Does not apply', 'Does not apply', 'Does not apply']
+
+278. eqv5y magnify  (list distinct)
+   Type: object
+   Non-null values: 103/152 (67.8%)
+   Unique values: 3 (2.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Never', 'Never', 'Never', 'Never', 'Does not apply; Never']
+
+279. mueqv5y magnify  (list distinct)
+   Type: object
+   Non-null values: 36/152 (23.7%)
+   Unique values: 1 (2.8% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Does not apply', 'Does not apply', 'Does not apply', 'Does not apply', 'Does not apply']
+
+280. eqv5y lamp  (list distinct)
+   Type: object
+   Non-null values: 103/152 (67.8%)
+   Unique values: 3 (2.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Never', 'Never', 'Never', 'Never', 'Does not apply; Never']
+
+281. mueqv5y lamp (list distinct)
+   Type: object
+   Non-null values: 36/152 (23.7%)
+   Unique values: 1 (2.8% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Does not apply', 'Does not apply', 'Does not apply', 'Does not apply', 'Does not apply']
+
+282. eqv5y other  (list distinct)
+   Type: object
+   Non-null values: 103/152 (67.8%)
+   Unique values: 4 (3.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Contains semicolon-separated values: Yes
+   Sample values: ['Always; Never', 'Always; Never', 'Always; Never', 'Always; Never', 'Does not apply; Never']
+
+283. eqv5y others (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+284. mueqv5y other  (list distinct)
+   Type: object
+   Non-null values: 36/152 (23.7%)
+   Unique values: 2 (5.6% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Sometimes', 'Sometimes', 'Sometimes', 'Sometimes', 'Does not apply']
+
+285. mueqv5y others (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+286. eqv5y device  (list distinct)
+   Type: object
+   Non-null values: 103/152 (67.8%)
+   Unique values: 4 (3.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Contains semicolon-separated values: Yes
+   Sample values: ['Does not apply; Never; Sometimes', 'Does not apply; Never; Sometimes', 'Does not apply; Never; Sometimes', 'Does not apply; Never; Sometimes', 'Does not apply; Never']
+
+287. mueqv5y device  (list distinct)
+   Type: object
+   Non-null values: 36/152 (23.7%)
+   Unique values: 2 (5.6% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Sometimes', 'Sometimes', 'Sometimes', 'Sometimes', 'Does not apply']
+
+288. eqv5y notlike  (list distinct)
+   Type: object
+   Non-null values: 103/152 (67.8%)
+   Unique values: 8 (7.8% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Contains semicolon-separated values: Yes
+   Sample values: ['Does not apply; Sometimes', 'Does not apply; Sometimes', 'Does not apply; Sometimes', 'Does not apply; Sometimes', 'Does not apply; Never']
+
+289. eqv5y eyesight  (list distinct)
+   Type: object
+   Non-null values: 103/152 (67.8%)
+   Unique values: 5 (4.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Contains semicolon-separated values: Yes
+   Sample values: ['Excellent; Fair; Good', 'Excellent; Fair; Good', 'Excellent; Fair; Good', 'Excellent; Fair; Good', 'Excellent; Fair; Good']
+
+290. mueqv5y eyesight  (list distinct)
+   Type: object
+   Non-null values: 36/152 (23.7%)
+   Unique values: 2 (5.6% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['Good', 'Good', 'Good', 'Good', 'Excellent']
+
+291. LOCUS study ID_alt6.4
+   Type: float64
+   Non-null values: 133/152 (87.5%)
+   Unique values: 19 (14.3% of non-null)
+   Column category: Identifier
+   Sample values: [1219.0, 1219.0, 1219.0, 1219.0, 1001.0]
+
+292. eqv5p board p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+293. mueqv5p board p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+294. eqv5p tv p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+295. mueqv5p tv p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+296. eqv5p express p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+297. mueqv5p express p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+298. eqv5p face p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+299. mueqv5p face p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+300. eqv5p book p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+301. mueqv5p book p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+302. eqv5p steps p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+303. mueqv5p steps p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+304. eqv5p glass p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+305. mueqv5p glass p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+306. eqv5p paper p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+307. mueqv5p paper p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+308. eqv5p sitdark p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+309. mueqv5p sitdark p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+310. eqv5p litroom p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+311. mueqv5p litroom p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+312. eqv5p sunlight p (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+313. mueqv5p sunlight p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+314. eqv5p balls p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+315. mueqv5p balls p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+316. eqv5p cursor p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+317. mueqv5p cursor p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+318. eqv5p computer p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+319. mueqv5p computer p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+320. eqv5p text p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+321. mueqv5p text p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+322. eqv5p activities p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+323. mueqv5p activities p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+324. eqv5p leftout p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+325. mueqv5p leftout p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+326. eqv5p join p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+327. mueqv5p join p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+328. eqv5p eyedrop p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+329. mueqv5p eyedrop p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+330. eqv5p stopme p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+331. mueqv5p stopme p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+332. eqv5p inject p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+333. mueqv5p inject p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+334. eqv5p know p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+335. mueqv5p know p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+336. eqv5p frustrated p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+337. mueqv5p frustrated p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+338. eqv5p eyeslook p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+339. mueqv5p eyeslook p (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+340. eqv5p largeprint p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+341. mueqv5p largeprint p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+342. eqv5p magnify p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+343. mueqv5p magnify p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+344. eqv5p lamp p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+345. mueqv5p lamp p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+346. eqv5p other p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+347. eqv5p other ps (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+348. mueqv5p other p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+349. mueqv5p other ps (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+350. eqv5p device p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+351. mueqv5p device p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+352. eqv5p supposed p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+353. mueqv5p supposed p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+354. eqv5p notlike p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+355. mueqv5p notlike p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+356. eqv5p eyesight p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+357. mueqv5p eyesight p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+358. ana_display_value (list distinct)
+   Type: object
+   Non-null values: 84/152 (55.3%)
+   Unique values: 2 (2.4% of non-null)
+   Column category: Other/Unknown
+   Sample values: ['Positive', 'Positive', 'Negative', 'Negative', 'Negative']
+
+359. jia_subtype_display_value (list distinct)
+   Type: object
+   Non-null values: 94/152 (61.8%)
+   Unique values: 3 (3.2% of non-null)
+   Column category: Other/Unknown
+   Sample values: ['Oligoarticular', 'Oligoarticular', 'Oligoarticular', 'Oligoarticular', 'Other']
+
+360. ilar_code_display_value (list distinct)
+   Type: object
+   Non-null values: 94/152 (61.8%)
+   Unique values: 5 (5.3% of non-null)
+   Column category: Other/Unknown
+   Sample values: ['Oligoarticular persistent', 'Oligoarticular persistent', 'Oligoarticular persistent', 'Oligoarticular persistent', 'Systemic JIA']
+
+361. ilar_code (list distinct)
+   Type: float64
+   Non-null values: 94/152 (61.8%)
+   Unique values: 5 (5.3% of non-null)
+   Column category: Numeric measurement
+   Sample values: [4.0, 4.0, 4.0, 4.0, 1.0]
+
+362. ILAR code
+   Type: object
+   Non-null values: 93/152 (61.2%)
+   Unique values: 5 (5.4% of non-null)
+   Column category: Other/Unknown
+   Sample values: ['persistent oligoarticular', 'persistent oligoarticular', 'persistent oligoarticular', 'persistent oligoarticular', 'systemic JIA']
+
+363. date of JIA symptom onset
+   Type: float64
+   Non-null values: 81/152 (53.3%)
+   Unique values: 9 (11.1% of non-null)
+   Column category: Date/Time
+   Sample values: [2015.0, 2010.0, 2021.0, 2021.0, 2021.0]
+
+364. date_diagnosis
+   Type: float64
+   Non-null values: 94/152 (61.8%)
+   Unique values: 11 (11.7% of non-null)
+   Column category: Date/Time
+   Sample values: [2015.0, 2009.0, 2016.0, 2012.0, 2010.0]
+
+365. date of diagnosis
+   Type: float64
+   Non-null values: 82/152 (53.9%)
+   Unique values: 9 (11.0% of non-null)
+   Column category: Date/Time
+   Sample values: [2015.0, 2012.0, 2021.0, 2021.0, 2021.0]
+
+366. afraid pedsql 13 18 c (list distinct)
+   Type: object
+   Non-null values: 51/152 (33.6%)
+   Unique values: 2 (3.9% of non-null)
+   Column category: Identifier
+   Sample values: ['0- Never', '0- Never', '0- Never', '0- Never', '0- Never']
+
+367. afraid pedsql 13 18 p (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Identifier
+   Sample values: [No non-null values]
+
+368. afraid pedsql 18 25 c (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Identifier
+   Sample values: [No non-null values]
+
+369. afraid pedsql 2 4 p (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Identifier
+   Sample values: [No non-null values]
+
+370. afraid pedsql 5 7 c (list distinct)
+   Type: object
+   Non-null values: 47/152 (30.9%)
+   Unique values: 4 (8.5% of non-null)
+   Column category: Identifier
+   Contains semicolon-separated values: Yes
+   Sample values: ['0- Not at all; 2- Sometimes', '0- Not at all; 2- Sometimes', '0- Not at all; 2- Sometimes', '0- Not at all; 2- Sometimes', '0- Not at all; 2- Sometimes']
+
+371. afraid pedsql 5 7 p (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Identifier
+   Sample values: [No non-null values]
+
+372. afraid pedsql 8 12 c (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 5 (4.3% of non-null)
+   Column category: Identifier
+   Contains semicolon-separated values: Yes
+   Sample values: ['0- Never; 1- Almost Never; 2- Sometimes', '0- Never; 1- Almost Never; 2- Sometimes', '0- Never; 1- Almost Never; 2- Sometimes', '0- Never; 1- Almost Never; 2- Sometimes', '0- Never; 1- Almost Never; 2- Sometimes']
+
+373. afraid pedsql 8 12 p (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Identifier
+   Sample values: [No non-null values]
+
+374. afraid pedsql adult c (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Identifier
+   Sample values: [No non-null values]
+
+375. angry pedsql 13 18 c (list distinct)
+   Type: object
+   Non-null values: 51/152 (33.6%)
+   Unique values: 2 (3.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['0- Never', '0- Never', '0- Never', '0- Never', '0- Never']
+
+376. angry pedsql 13 18 p (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+377. angry pedsql 18 25 c (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+378. angry pedsql 2 4 p (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+379. angry pedsql 5 7 c (list distinct)
+   Type: object
+   Non-null values: 47/152 (30.9%)
+   Unique values: 4 (8.5% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Contains semicolon-separated values: Yes
+   Sample values: ['0- Not at all; 2- Sometimes', '0- Not at all; 2- Sometimes', '0- Not at all; 2- Sometimes', '0- Not at all; 2- Sometimes', '0- Not at all; 2- Sometimes']
+
+380. angry pedsql 5 7 p (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+381. angry pedsql 8 12 p (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+382. angry pedsql 8 12 c (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 7 (6.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Contains semicolon-separated values: Yes
+   Sample values: ['0- Never; 1- Almost Never; 2- Sometimes', '0- Never; 1- Almost Never; 2- Sometimes', '0- Never; 1- Almost Never; 2- Sometimes', '0- Never; 1- Almost Never; 2- Sometimes', '0- Never; 1- Almost Never; 2- Sometimes']
+
+383. angry pedsql adult c (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+384. bath pedsql 13 18 c  (list distinct)
+   Type: object
+   Non-null values: 51/152 (33.6%)
+   Unique values: 1 (2.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['0- Never', '0- Never', '0- Never', '0- Never', '0- Never']
+
+385. bath pedsql 13 18 p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+386. bath pedsql 18 25 c  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+387. bath pedsql 2 4 p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+388. bath pedsql 5 7 c  (list distinct)
+   Type: object
+   Non-null values: 47/152 (30.9%)
+   Unique values: 2 (4.3% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['0- Not at all', '0- Not at all', '0- Not at all', '0- Not at all', '0- Not at all']
+
+389. bath pedsql 5 7 p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+390. bath pedsql 8 12 c  (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 3 (2.6% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['0- Never', '0- Never', '0- Never', '0- Never', '0- Never']
+
+391. bath pedsql 8 12 p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+392. bath pedsql adult c  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+393. pedsql 13 18 h1 (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+394. lift pedsql adult c  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+395. lift pedsql 8 12 p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+396. behind pedsql 13 18 c  (list distinct)
+   Type: object
+   Non-null values: 51/152 (33.6%)
+   Unique values: 2 (3.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['0- Never', '0- Never', '0- Never', '0- Never', '0- Never']
+
+397. behind pedsql 13 18 p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+398. behind pedsql 18 25 c  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+399. behind pedsql 2 4 p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+400. lift pedsql 8 12 c  (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 9 (7.8% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Contains semicolon-separated values: Yes
+   Sample values: ['0- Never; 1- Almost Never', '0- Never; 1- Almost Never', '0- Never; 1- Almost Never', '0- Never; 1- Almost Never', '0- Never; 1- Almost Never; 2- Sometimes']
+
+401. behind pedsql 5 7 c  (list distinct)
+   Type: object
+   Non-null values: 47/152 (30.9%)
+   Unique values: 4 (8.5% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['0- Not at all', '0- Not at all', '0- Not at all', '0- Not at all', '0- Not at all']
+
+402. behind pedsql 5 7 p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+403. behind pedsql 8 12 c  (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 6 (5.2% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Contains semicolon-separated values: Yes
+   Sample values: ['0- Never; 1- Almost Never', '0- Never; 1- Almost Never', '0- Never; 1- Almost Never', '0- Never; 1- Almost Never', '0- Never']
+
+404. lift pedsql 5 7 p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+405. lift pedsql 2 4 p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+406. lift pedsql 5 7 p  (list distinct).1
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+407. lift pedsql 5 7 c  (list distinct)
+   Type: object
+   Non-null values: 47/152 (30.9%)
+   Unique values: 3 (6.4% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['0- Not at all', '0- Not at all', '0- Not at all', '0- Not at all', '0- Not at all']
+
+408. behind pedsql 8 12 p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+409. behind pedsql adult c  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+410. chores pedsql 13 18 c  (list distinct)
+   Type: object
+   Non-null values: 51/152 (33.6%)
+   Unique values: 2 (3.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['0- Never', '0- Never', '0- Never', '0- Never', '0- Never']
+
+411. chores pedsql 13 18 p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+412. chores pedsql 18 25 c  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+413. chores pedsql 5 7 c  (list distinct)
+   Type: object
+   Non-null values: 47/152 (30.9%)
+   Unique values: 2 (4.3% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Contains semicolon-separated values: Yes
+   Sample values: ['0- Not at all; 2- Sometimes', '0- Not at all; 2- Sometimes', '0- Not at all; 2- Sometimes', '0- Not at all; 2- Sometimes', '0- Not at all; 2- Sometimes']
+
+414. lift pedsql 18 25 c  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+415. lift pedsql 13 18 p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+416. lift pedsql 13 18 c  (list distinct)
+   Type: object
+   Non-null values: 51/152 (33.6%)
+   Unique values: 2 (3.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['0- Never', '0- Never', '0- Never', '0- Never', '0- Never']
+
+417. keepup pedsql adult c  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+418. chores pedsql 5 7 p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+419. chores pedsql 8 12 c  (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 5 (4.3% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['0- Never', '0- Never', '0- Never', '0- Never', '0- Never']
+
+420. chores pedsql 8 12 p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+421. chores pedsql adult c  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+422. energy pedsql 13 18 c  (list distinct)
+   Type: object
+   Non-null values: 51/152 (33.6%)
+   Unique values: 3 (5.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['0- Never', '0- Never', '0- Never', '0- Never', '0- Never']
+
+423. energy pedsql 13 18 p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+424. energy pedsql 18 25 c  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+425. energy pedsql 2 4 p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+426. energy pedsql 5 7 c  (list distinct)
+   Type: object
+   Non-null values: 47/152 (30.9%)
+   Unique values: 4 (8.5% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Contains semicolon-separated values: Yes
+   Sample values: ['0- Not at all; 2- Sometimes', '0- Not at all; 2- Sometimes', '0- Not at all; 2- Sometimes', '0- Not at all; 2- Sometimes', '0- Not at all; 2- Sometimes']
+
+427. energy pedsql 5 7 p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+428. energy pedsql 8 12 c  (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 7 (6.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Contains semicolon-separated values: Yes
+   Sample values: ['0- Never; 1- Almost Never', '0- Never; 1- Almost Never', '0- Never; 1- Almost Never', '0- Never; 1- Almost Never', '0- Never; 2- Sometimes; 3- Often']
+
+429. energy pedsql 8 12 p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+430. keepup pedsql 5 7 c  (list distinct)
+   Type: object
+   Non-null values: 47/152 (30.9%)
+   Unique values: 4 (8.5% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['0- Not at all', '0- Not at all', '0- Not at all', '0- Not at all', '0- Not at all']
+
+431. keepup pedsql 5 7 p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+432. keepup pedsql 8 12 c  (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 4 (3.4% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Contains semicolon-separated values: Yes
+   Sample values: ['0- Never; 1- Almost Never', '0- Never; 1- Almost Never', '0- Never; 1- Almost Never', '0- Never; 1- Almost Never', '0- Never']
+
+433. keepup pedsql 8 12 p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+434. keepup pedsql 2 4 p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+435. energy pedsql adult c  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+436. exercise pedsql 13 18 c  (list distinct)
+   Type: object
+   Non-null values: 51/152 (33.6%)
+   Unique values: 2 (3.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['0- Never', '0- Never', '0- Never', '0- Never', '0- Never']
+
+437. exercise pedsql 13 18 p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+438. exercise pedsql 18 25 c  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+439. exercise pedsql 2 4 p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+440. exercise pedsql 2 4 p  (list distinct).1
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+441. exercise pedsql 5 7 c  (list distinct)
+   Type: object
+   Non-null values: 47/152 (30.9%)
+   Unique values: 2 (4.3% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['0- Not at all', '0- Not at all', '0- Not at all', '0- Not at all', '0- Not at all']
+
+442. exercise pedsql 5 7 p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+443. exercise pedsql 8 12 c  (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 6 (5.2% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Contains semicolon-separated values: Yes
+   Sample values: ['0- Never; 1- Almost Never', '0- Never; 1- Almost Never', '0- Never; 1- Almost Never', '0- Never; 1- Almost Never', '0- Never; 1- Almost Never']
+
+444. exercise pedsql adult c  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+445. exercise pedsql 8 12 p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+446. keepup pedsql 18 25 c  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+447. keepup pedsql 13 18 p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+448. keepup pedsql 13 18 c  (list distinct)
+   Type: object
+   Non-null values: 51/152 (33.6%)
+   Unique values: 3 (5.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['0- Never', '0- Never', '0- Never', '0- Never', '0- Never']
+
+449. hurt where pedsql 5 7 c (list distinct)
+   Type: object
+   Non-null values: 28/152 (18.4%)
+   Unique values: 3 (10.7% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['hands, arm', 'hands, arm', 'hands, arm', 'hands, arm', 'hands, arm']
+
+450. hurt pedsql adult c  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+451. hurt pedsql 8 12 p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+452. hurt pedsql 8 12 c  (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 8 (6.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Contains semicolon-separated values: Yes
+   Sample values: ['0- Never; 1- Almost Never; 2- Sometimes', '0- Never; 1- Almost Never; 2- Sometimes', '0- Never; 1- Almost Never; 2- Sometimes', '0- Never; 1- Almost Never; 2- Sometimes', '0- Never; 1- Almost Never; 2- Sometimes']
+
+453. hurt pedsql 5 7 p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+454. hurt pedsql 5 7 c  (list distinct)
+   Type: object
+   Non-null values: 47/152 (30.9%)
+   Unique values: 3 (6.4% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Contains semicolon-separated values: Yes
+   Sample values: ['0- Not at all; 2- Sometimes', '0- Not at all; 2- Sometimes', '0- Not at all; 2- Sometimes', '0- Not at all; 2- Sometimes', '0- Not at all; 2- Sometimes']
+
+455. hurt pedsql 2 4 p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+456. hurt pedsql 18 25 c  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+457. hurt pedsql 13 18 p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+458. hurt pedsql 13 18 c  (list distinct)
+   Type: object
+   Non-null values: 51/152 (33.6%)
+   Unique values: 3 (5.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['1- Almost Never', '1- Almost Never', '1- Almost Never', '1- Almost Never', '1- Almost Never']
+
+459. friend pedsql adult c  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+460. friend pedsql 8 12 p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+461. friend pedsql 8 12 c  (list distinct)
+   Type: object
+   Non-null values: 116/152 (76.3%)
+   Unique values: 6 (5.2% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Contains semicolon-separated values: Yes
+   Sample values: ['0- Never; 1- Almost Never', '0- Never; 1- Almost Never', '0- Never; 1- Almost Never', '0- Never; 1- Almost Never', '0- Never; 2- Sometimes']
+
+462. friend pedsql 5 7 p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+463. friend pedsql 5 7 c  (list distinct)
+   Type: object
+   Non-null values: 47/152 (30.9%)
+   Unique values: 3 (6.4% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['0- Not at all', '0- Not at all', '0- Not at all', '0- Not at all', '0- Not at all']
+
+464. friend pedsql 13 18 c  (list distinct)
+   Type: object
+   Non-null values: 51/152 (33.6%)
+   Unique values: 3 (5.9% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: ['0- Never', '0- Never', '0- Never', '0- Never', '0- Never']
+
+465. friend pedsql 13 18 p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+466. friend pedsql 18 25 c  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+467. friend pedsql 2 4 p  (list distinct)
+   Type: float64
+   Non-null values: 0/152 (0.0%)
+   Unique values: 0 (0.0% of non-null)
+   Column category: Patient-reported outcome/assessment
+   Sample values: [No non-null values]
+
+468. LOCUS study ID_alt6.5
+   Type: float64
+   Non-null values: 133/152 (87.5%)
+   Unique values: 19 (14.3% of non-null)
+   Column category: Identifier
+   Sample values: [1219.0, 1219.0, 1219.0, 1219.0, 1001.0]
+
+469. ethnicity
+   Type: object
+   Non-null values: 152/152 (100.0%)
+   Unique values: 2 (1.3% of non-null)
+   Column category: Demographic information
+   Sample values: ['Non-Hispanic', 'Non-Hispanic', 'Non-Hispanic', 'Non-Hispanic', 'Non-Hispanic']
+
+470. race
+   Type: object
+   Non-null values: 152/152 (100.0%)
+   Unique values: 4 (2.6% of non-null)
+   Column category: Demographic information
+   Sample values: ['WHITE', 'WHITE', 'WHITE', 'WHITE', 'WHITE']
+
+471. gender
+   Type: object
+   Non-null values: 152/152 (100.0%)
+   Unique values: 2 (1.3% of non-null)
+   Column category: Demographic information
+   Sample values: ['Male', 'Male', 'Male', 'Male', 'Female']
+
+472. DOB
+   Type: int64
+   Non-null values: 152/152 (100.0%)
+   Unique values: 10 (6.6% of non-null)
+   Column category: Date/Time
+   Sample values: [2011, 2011, 2011, 2011, 2011]
+
+473. global gender
+   Type: object
+   Non-null values: 152/152 (100.0%)
+   Unique values: 2 (1.3% of non-null)
+   Column category: Demographic information
+   Sample values: ['Male', 'Male', 'Male', 'Male', 'Female']
+
+474. global DOB
+   Type: int64
+   Non-null values: 152/152 (100.0%)
+   Unique values: 10 (6.6% of non-null)
+   Column category: Date/Time
+   Sample values: [2011, 2011, 2011, 2011, 2011]
+
+475. has Epic data
+   Type: bool
+   Non-null values: 152/152 (100.0%)
+   Unique values: 1 (0.7% of non-null)
+   Column category: Binary indicator (0/1)
+   Sample values: [True, True, True, True, True]
+
+476. score (list distinct)
+   Type: object
+   Non-null values: 149/152 (98.0%)
+   Unique values: 33 (22.1% of non-null)
+   Column category: Clinical measurement
+   Contains semicolon-separated values: Yes
+   Sample values: ['0.936; 0.947; 0.954', '0.936; 0.947; 0.954', '0.936; 0.947; 0.954', '0.936; 0.947; 0.954', '0.805; 0.923; 0.93']
+
+477. precision (list distinct)
+   Type: object
+   Non-null values: 149/152 (98.0%)
+   Unique values: 3 (2.0% of non-null)
+   Column category: Other/Unknown
+   Sample values: ['range', 'range', 'range', 'range', 'range']
+
+478. dep_index (list distinct)
+   Type: object
+   Non-null values: 149/152 (98.0%)
+   Unique values: 32 (21.5% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['0.176; 0.197; 0.395', '0.176; 0.197; 0.395', '0.176; 0.197; 0.395', '0.176; 0.197; 0.395', '0.345']
+
+479. sdi (list distinct)
+   Type: object
+   Non-null values: 149/152 (98.0%)
+   Unique values: 28 (18.8% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['5; 7; 71', '5; 7; 71', '5; 7; 71', '5; 7; 71', '69']
+
+480. svi_household_comp (list distinct)
+   Type: object
+   Non-null values: 149/152 (98.0%)
+   Unique values: 33 (22.1% of non-null)
+   Column category: Social Vulnerability Index data
+   Contains semicolon-separated values: Yes
+   Sample values: ['0.132; 0.321; 0.649', '0.132; 0.321; 0.649', '0.132; 0.321; 0.649', '0.132; 0.321; 0.649', '0.684']
+   IMPORTANT SVI INDICATOR: This column contains raw SVI values that should be averaged
+
+481. svi_housing_transportation (list distinct)
+   Type: object
+   Non-null values: 149/152 (98.0%)
+   Unique values: 33 (22.1% of non-null)
+   Column category: Social Vulnerability Index data
+   Contains semicolon-separated values: Yes
+   Sample values: ['0.0805; 0.117; 0.283', '0.0805; 0.117; 0.283', '0.0805; 0.117; 0.283', '0.0805; 0.117; 0.283', '0.577']
+   IMPORTANT SVI INDICATOR: This column contains raw SVI values that should be averaged
+
+482. social_vulnerability_index (list distinct)
+   Type: object
+   Non-null values: 149/152 (98.0%)
+   Unique values: 33 (22.1% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['0.0262; 0.0529; 0.533', '0.0262; 0.0529; 0.533', '0.0262; 0.0529; 0.533', '0.0262; 0.0529; 0.533', '0.496']
+
+483. svi_socioeconomic (list distinct)
+   Type: object
+   Non-null values: 149/152 (98.0%)
+   Unique values: 33 (22.1% of non-null)
+   Column category: Social Vulnerability Index data
+   Contains semicolon-separated values: Yes
+   Sample values: ['0.081; 0.0833; 0.776', '0.081; 0.0833; 0.776', '0.081; 0.0833; 0.776', '0.081; 0.0833; 0.776', '0.486']
+   IMPORTANT SVI INDICATOR: This column contains raw SVI values that should be averaged
+
+484. svi_minority (list distinct)
+   Type: object
+   Non-null values: 149/152 (98.0%)
+   Unique values: 33 (22.1% of non-null)
+   Column category: Social Vulnerability Index data
+   Contains semicolon-separated values: Yes
+   Sample values: ['0.0439; 0.179; 0.22', '0.0439; 0.179; 0.22', '0.0439; 0.179; 0.22', '0.0439; 0.179; 0.22', '0.223']
+   IMPORTANT SVI INDICATOR: This column contains raw SVI values that should be averaged
+
+485. encounter date (list distinct)
+   Type: object
+   Non-null values: 152/152 (100.0%)
+   Unique values: 35 (23.0% of non-null)
+   Column category: Date/Time
+   Contains semicolon-separated values: Yes
+   Sample values: ['2011; 2012; 2018; 2019; 2020; 2021; 2022; 2023; 20...', '2011; 2012; 2018; 2019; 2020; 2021; 2022; 2023; 20...', '2011; 2012; 2018; 2019; 2020; 2021; 2022; 2023; 20...', '2011; 2012; 2018; 2019; 2020; 2021; 2022; 2023; 20...', '2017; 2018; 2019; 2020...']
+
+486. encounter type (list distinct)
+   Type: object
+   Non-null values: 152/152 (100.0%)
+   Unique values: 36 (23.7% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['Appointment; Child Life; EEG; History; Hospital En...', 'Appointment; Child Life; EEG; History; Hospital En...', 'Appointment; Child Life; EEG; History; Hospital En...', 'Appointment; Child Life; EEG; History; Hospital En...', 'Clinical Note; History; Hospital Encounter; Letter...']
+
+487. appointment length (hours) (list distinct)
+   Type: object
+   Non-null values: 152/152 (100.0%)
+   Unique values: 33 (21.7% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['0.08333333333333333; 0.16666666666666666; 0.25; 0....', '0.08333333333333333; 0.16666666666666666; 0.25; 0....', '0.08333333333333333; 0.16666666666666666; 0.25; 0....', '0.08333333333333333; 0.16666666666666666; 0.25; 0....', '0.08333333333333333; 0.25; 0.5; 1.0...']
+
+488. encounter age (list distinct)
+   Type: object
+   Non-null values: 152/152 (100.0%)
+   Unique values: 36 (23.7% of non-null)
+   Column category: Demographic information
+   Contains semicolon-separated values: Yes
+   Sample values: ['182; 394; 2626; 2956; 2961; 2971; 2972; 2974; 2975...', '182; 394; 2626; 2956; 2961; 2971; 2972; 2974; 2975...', '182; 394; 2626; 2956; 2961; 2971; 2972; 2974; 2975...', '182; 394; 2626; 2956; 2961; 2971; 2972; 2974; 2975...', '2006; 2022; 2050; 2053; 2069; 2071; 2075; 2125; 21...']
+
+489. department name (list distinct)
+   Type: object
+   Non-null values: 152/152 (100.0%)
+   Unique values: 33 (21.7% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['AND OPHTHALMOLOGY; AND RADIOLOGY; AND TRC; CCM BMC...', 'AND OPHTHALMOLOGY; AND RADIOLOGY; AND TRC; CCM BMC...', 'AND OPHTHALMOLOGY; AND RADIOLOGY; AND TRC; CCM BMC...', 'AND OPHTHALMOLOGY; AND RADIOLOGY; AND TRC; CCM BMC...', 'CCM OPHTHALMOLOGY; CCM RHEUMATOLOGY; CCM SCHEDULIN...']
+
+490. department ID (list distinct)
+   Type: object
+   Non-null values: 152/152 (100.0%)
+   Unique values: 33 (21.7% of non-null)
+   Column category: Identifier
+   Contains semicolon-separated values: Yes
+   Sample values: ['10001278; 10001496; 20001001; 20001011; 20001017; ...', '10001278; 10001496; 20001001; 20001011; 20001017; ...', '10001278; 10001496; 20001001; 20001011; 20001017; ...', '10001278; 10001496; 20001001; 20001011; 20001017; ...', '20001001; 20001019; 20010001; 20010006; 20010019; ...']
+
+491. collection date
+   Type: float64
+   Non-null values: 87/152 (57.2%)
+   Unique values: 3 (3.4% of non-null)
+   Column category: Date/Time
+   Sample values: [2018.0, 2018.0, 2018.0, 2018.0, 2018.0]
+
+492. ILAR code_alt1
+   Type: object
+   Non-null values: 93/152 (61.2%)
+   Unique values: 5 (5.4% of non-null)
+   Column category: Other/Unknown
+   Sample values: ['persistent oligoarticular', 'persistent oligoarticular', 'persistent oligoarticular', 'persistent oligoarticular', 'systemic JIA']
+
+493. date of JIA symptom onset_alt1
+   Type: float64
+   Non-null values: 81/152 (53.3%)
+   Unique values: 9 (11.1% of non-null)
+   Column category: Date/Time
+   Sample values: [2015.0, 2010.0, 2021.0, 2021.0, 2021.0]
+
+494. comorbidities
+   Type: object
+   Non-null values: 70/152 (46.1%)
+   Unique values: 6 (8.6% of non-null)
+   Column category: Identifier
+   Sample values: ['Ehlers-Danlos syndrome', 'iritis', 'iritis', 'celiac disease', 'iritis']
+
+495. date of diagnosis_alt1
+   Type: float64
+   Non-null values: 82/152 (53.9%)
+   Unique values: 9 (11.0% of non-null)
+   Column category: Date/Time
+   Sample values: [2015.0, 2012.0, 2021.0, 2021.0, 2021.0]
+
+496. measure name (list distinct)
+   Type: object
+   Non-null values: 139/152 (91.4%)
+   Unique values: 31 (22.3% of non-null)
+   Column category: Clinical measurement
+   Contains semicolon-separated values: Yes
+   Sample values: ['Average pain score over the past week; BP; Change ...', 'Average pain score over the past week; BP; Change ...', 'Average pain score over the past week; BP; Change ...', 'Average pain score over the past week; BP; Change ...', 'ANA; Anti-CCP Antibodies; Average pain score over ...']
+
+497. measure value (list distinct)
+   Type: object
+   Non-null values: 139/152 (91.4%)
+   Unique values: 34 (24.5% of non-null)
+   Column category: Clinical measurement
+   Contains semicolon-separated values: Yes
+   Sample values: ['.2; .43; .49; 0; 0.07; 0.52; 0.66; 0.75; 0.98; 01-...', '.2; .43; .49; 0; 0.07; 0.52; 0.66; 0.75; 0.98; 01-...', '.2; .43; .49; 0; 0.07; 0.52; 0.66; 0.75; 0.98; 01-...', '.2; .43; .49; 0; 0.07; 0.52; 0.66; 0.75; 0.98; 01-...', '.62; 0; 03-JAN-18; 08-JUN-17; 1.84; 104/63; 110/69...']
+
+498. encounter age (list distinct).1
+   Type: object
+   Non-null values: 139/152 (91.4%)
+   Unique values: 34 (24.5% of non-null)
+   Column category: Demographic information
+   Contains semicolon-separated values: Yes
+   Sample values: ['2989; 2996; 3026; 3149; 3390; 3649; 3754; 3954; 40...', '2989; 2996; 3026; 3149; 3390; 3649; 3754; 3954; 40...', '2989; 2996; 3026; 3149; 3390; 3649; 3754; 3954; 40...', '2989; 2996; 3026; 3149; 3390; 3649; 3754; 3954; 40...', '2069; 2125; 2225; 2259; 2433; 2587; 2797...']
+
+499. measure ID (list distinct)
+   Type: object
+   Non-null values: 139/152 (91.4%)
+   Unique values: 31 (22.3% of non-null)
+   Column category: Identifier
+   Contains semicolon-separated values: Yes
+   Sample values: ['11; 14; 1558; 1791; 1803; 2100101583; 2100101585; ...', '11; 14; 1558; 1791; 1803; 2100101583; 2100101585; ...', '11; 14; 1558; 1791; 1803; 2100101583; 2100101585; ...', '11; 14; 1558; 1791; 1803; 2100101583; 2100101585; ...', '11; 14; 1579; 1791; 1803; 2100101586; 2100101595; ...']
+
+500. encounter date (list distinct).1
+   Type: object
+   Non-null values: 139/152 (91.4%)
+   Unique values: 31 (22.3% of non-null)
+   Column category: Date/Time
+   Contains semicolon-separated values: Yes
+   Sample values: ['2019; 2020; 2021; 2022; 2023; 2024', '2019; 2020; 2021; 2022; 2023; 2024', '2019; 2020; 2021; 2022; 2023; 2024', '2019; 2020; 2021; 2022; 2023; 2024', '2017; 2018; 2019']
+
+501. recorded date (list distinct)
+   Type: object
+   Non-null values: 139/152 (91.4%)
+   Unique values: 31 (22.3% of non-null)
+   Column category: Date/Time
+   Contains semicolon-separated values: Yes
+   Sample values: ['2019; 2020; 2021; 2022; 2023; 2024', '2019; 2020; 2021; 2022; 2023; 2024', '2019; 2020; 2021; 2022; 2023; 2024', '2019; 2020; 2021; 2022; 2023; 2024', '2017; 2018; 2019']
+
+502. dx code (list distinct)
+   Type: object
+   Non-null values: 152/152 (100.0%)
+   Unique values: 35 (23.0% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['H20.9; H30.23; H44.111; M08.40; M08.80; M08.90', 'H20.9; H30.23; H44.111; M08.40; M08.80; M08.90', 'H20.9; H30.23; H44.111; M08.40; M08.80; M08.90', 'H20.9; H30.23; H44.111; M08.40; M08.80; M08.90', 'H20.9; M08.3; M08.80']
+
+503. dx code (list distinct).1
+   Type: object
+   Non-null values: 152/152 (100.0%)
+   Unique values: 35 (23.0% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['H20.9; H30.23; H44.111; M08.40; M08.80; M08.90', 'H20.9; H30.23; H44.111; M08.40; M08.80; M08.90', 'H20.9; H30.23; H44.111; M08.40; M08.80; M08.90', 'H20.9; H30.23; H44.111; M08.40; M08.80; M08.90', 'H20.9; M08.3; M08.80']
+
+504. recorded age (list distinct)
+   Type: object
+   Non-null values: 139/152 (91.4%)
+   Unique values: 34 (24.5% of non-null)
+   Column category: Demographic information
+   Contains semicolon-separated values: Yes
+   Sample values: ['2989; 2995; 2996; 3026; 3032; 3149; 3390; 3649; 37...', '2989; 2995; 2996; 3026; 3032; 3149; 3390; 3649; 37...', '2989; 2995; 2996; 3026; 3032; 3149; 3390; 3649; 37...', '2989; 2995; 2996; 3026; 3032; 3149; 3390; 3649; 37...', '2069; 2125; 2225; 2259; 2433; 2587; 2797...']
+
+505. flowsheet name (list distinct)
+   Type: object
+   Non-null values: 139/152 (91.4%)
+   Unique values: 15 (10.8% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['Encounter Vitals; Joint Exam; RHE Data', 'Encounter Vitals; Joint Exam; RHE Data', 'Encounter Vitals; Joint Exam; RHE Data', 'Encounter Vitals; Joint Exam; RHE Data', 'Encounter Vitals; Health Counseling; Joint Exam; RHE Data']
+
+506. encounter type (list distinct).1
+   Type: object
+   Non-null values: 152/152 (100.0%)
+   Unique values: 31 (20.4% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['Appointment; Hospital Encounter; Office Visit; Spe...', 'Appointment; Hospital Encounter; Office Visit; Spe...', 'Appointment; Hospital Encounter; Office Visit; Spe...', 'Appointment; Hospital Encounter; Office Visit; Spe...', 'Hospital Encounter; Office Visit; Refill; Specimen...']
+
+507. visit type (list distinct)
+   Type: object
+   Non-null values: 152/152 (100.0%)
+   Unique values: 35 (23.0% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['INF REMICADE (INFLIXIMAB); OPH * DILATE; OPH * FU;...', 'INF REMICADE (INFLIXIMAB); OPH * DILATE; OPH * FU;...', 'INF REMICADE (INFLIXIMAB); OPH * DILATE; OPH * FU;...', 'INF REMICADE (INFLIXIMAB); OPH * DILATE; OPH * FU;...', 'OPH * DILATE; OPH * FU; OPH * FU C; OPH * FU NC; O...']
+
+508. dx date (list distinct)
+   Type: object
+   Non-null values: 152/152 (100.0%)
+   Unique values: 27 (17.8% of non-null)
+   Column category: Date/Time
+   Contains semicolon-separated values: Yes
+   Sample values: ['2019; 2020; 2021; 2022; 2023; 2024; 2025', '2019; 2020; 2021; 2022; 2023; 2024; 2025', '2019; 2020; 2021; 2022; 2023; 2024; 2025', '2019; 2020; 2021; 2022; 2023; 2024; 2025', '2017; 2018; 2019; 2020']
+
+509. dx age (list distinct)
+   Type: object
+   Non-null values: 152/152 (100.0%)
+   Unique values: 36 (23.7% of non-null)
+   Column category: Demographic information
+   Contains semicolon-separated values: Yes
+   Sample values: ['2956; 2961; 2971; 2972; 2974; 2983; 2989; 2996; 30...', '2956; 2961; 2971; 2972; 2974; 2983; 2989; 2996; 30...', '2956; 2961; 2971; 2972; 2974; 2983; 2989; 2996; 30...', '2956; 2961; 2971; 2972; 2974; 2983; 2989; 2996; 30...', '2006; 2022; 2050; 2069; 2125; 2225; 2232; 2239; 22...']
+
+510. dx name (list distinct)
+   Type: object
+   Non-null values: 152/152 (100.0%)
+   Unique values: 36 (23.7% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['JIA (juvenile idiopathic arthritis); JIA (juvenile...', 'JIA (juvenile idiopathic arthritis); JIA (juvenile...', 'JIA (juvenile idiopathic arthritis); JIA (juvenile...', 'JIA (juvenile idiopathic arthritis); JIA (juvenile...', 'Anterior uveitis; JIA (juvenile idiopathic arthrit...']
+
+511. where dx found (list distinct)
+   Type: object
+   Non-null values: 152/152 (100.0%)
+   Unique values: 2 (1.3% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['DISCHDX; ENCDX', 'DISCHDX; ENCDX', 'DISCHDX; ENCDX', 'DISCHDX; ENCDX', 'DISCHDX; ENCDX']
+
+512. encounter type (list distinct).2
+   Type: object
+   Non-null values: 152/152 (100.0%)
+   Unique values: 27 (17.8% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['Appointment; EEG; Hospital Encounter; Lab Requisit...', 'Appointment; EEG; Hospital Encounter; Lab Requisit...', 'Appointment; EEG; Hospital Encounter; Lab Requisit...', 'Appointment; EEG; Hospital Encounter; Lab Requisit...', 'Hospital Encounter; Office Visit; Specimen Collect...']
+
+513. service date (list distinct)
+   Type: object
+   Non-null values: 152/152 (100.0%)
+   Unique values: 33 (21.7% of non-null)
+   Column category: Date/Time
+   Contains semicolon-separated values: Yes
+   Sample values: ['2011; 2012; 2018; 2019; 2020; 2021; 2022; 2023; 20...', '2011; 2012; 2018; 2019; 2020; 2021; 2022; 2023; 20...', '2011; 2012; 2018; 2019; 2020; 2021; 2022; 2023; 20...', '2011; 2012; 2018; 2019; 2020; 2021; 2022; 2023; 20...', '2017; 2018; 2019...']
+
+514. procedure name (list distinct)
+   Type: object
+   Non-null values: 152/152 (100.0%)
+   Unique values: 36 (23.7% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['HB 5% DEXTROSE/WATER 1000ML; HB ACETAMINOPHEN 160M...', 'HB 5% DEXTROSE/WATER 1000ML; HB ACETAMINOPHEN 160M...', 'HB 5% DEXTROSE/WATER 1000ML; HB ACETAMINOPHEN 160M...', 'HB 5% DEXTROSE/WATER 1000ML; HB ACETAMINOPHEN 160M...', 'HB ADMIN. SQ/IM 1ST VACCINE; HB ADMIN. SQ/IM EA AD...']
+
+515. service age (list distinct)
+   Type: object
+   Non-null values: 152/152 (100.0%)
+   Unique values: 36 (23.7% of non-null)
+   Column category: Demographic information
+   Contains semicolon-separated values: Yes
+   Sample values: ['182; 394; 2626; 2956; 2961; 2971; 2972; 2974; 2983...', '182; 394; 2626; 2956; 2961; 2971; 2972; 2974; 2983...', '182; 394; 2626; 2956; 2961; 2971; 2972; 2974; 2983...', '182; 394; 2626; 2956; 2961; 2971; 2972; 2974; 2983...', '2006; 2022; 2050; 2069; 2125; 2225; 2232; 2239; 22...']
+
+516. CPT code (list distinct)
+   Type: object
+   Non-null values: 152/152 (100.0%)
+   Unique values: 36 (23.7% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['01415413; 01435700; 01442458; 01445238; 01445402; ...', '01415413; 01435700; 01442458; 01445238; 01445402; ...', '01415413; 01435700; 01442458; 01445238; 01445402; ...', '01415413; 01435700; 01442458; 01445238; 01445402; ...', '01461243; 01482081; 01485189; 36415; 71020; 80053;...']
+
+517. visit type (list distinct).1
+   Type: object
+   Non-null values: 152/152 (100.0%)
+   Unique values: 35 (23.0% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['EEG; EEG * PT LOCAL; INF REMICADE (INFLIXIMAB); MR...', 'EEG; EEG * PT LOCAL; INF REMICADE (INFLIXIMAB); MR...', 'EEG; EEG * PT LOCAL; INF REMICADE (INFLIXIMAB); MR...', 'EEG; EEG * PT LOCAL; INF REMICADE (INFLIXIMAB); MR...', 'OPH * DILATE; OPH * FU; OPH * FU C; OPH * FU NC; O...']
+
+518. measure unit (list distinct)
+   Type: object
+   Non-null values: 142/152 (93.4%)
+   Unique values: 26 (18.3% of non-null)
+   Column category: Clinical measurement
+   Contains semicolon-separated values: Yes
+   Sample values: ['%; Cells; IU/mL; International Units/mL; K/mcL; LI...', '%; Cells; IU/mL; International Units/mL; K/mcL; LI...', '%; Cells; IU/mL; International Units/mL; K/mcL; LI...', '%; Cells; IU/mL; International Units/mL; K/mcL; LI...', '%; Cells; International Units/mL; K/mcL; LIV; M/mc...']
+
+519. result date (list distinct)
+   Type: object
+   Non-null values: 143/152 (94.1%)
+   Unique values: 27 (18.9% of non-null)
+   Column category: Date/Time
+   Contains semicolon-separated values: Yes
+   Sample values: ['2012; 2019; 2020; 2021; 2022; 2023; 2024; 2025', '2012; 2019; 2020; 2021; 2022; 2023; 2024; 2025', '2012; 2019; 2020; 2021; 2022; 2023; 2024; 2025', '2012; 2019; 2020; 2021; 2022; 2023; 2024; 2025', '2017; 2018; 2019']
+
+520. order status (list distinct)
+   Type: object
+   Non-null values: 143/152 (94.1%)
+   Unique values: 1 (0.7% of non-null)
+   Column category: Other/Unknown
+   Sample values: ['Completed', 'Completed', 'Completed', 'Completed', 'Completed']
+
+521. visit type (list distinct).2
+   Type: object
+   Non-null values: 131/152 (86.2%)
+   Unique values: 19 (14.5% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['INF REMICADE (INFLIXIMAB); OPH * NV; RHE ** JOINT ...', 'INF REMICADE (INFLIXIMAB); OPH * NV; RHE ** JOINT ...', 'INF REMICADE (INFLIXIMAB); OPH * NV; RHE ** JOINT ...', 'INF REMICADE (INFLIXIMAB); OPH * NV; RHE ** JOINT ...', 'TRC PT VISIT...']
+
+522. encounter type (list distinct).3
+   Type: object
+   Non-null values: 143/152 (94.1%)
+   Unique values: 15 (10.5% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['Hospital Encounter; Lab Requisition; Office Visit;...', 'Hospital Encounter; Lab Requisition; Office Visit;...', 'Hospital Encounter; Lab Requisition; Office Visit;...', 'Hospital Encounter; Lab Requisition; Office Visit;...', 'Specimen Collection...']
+
+523. reference_high (list distinct)
+   Type: object
+   Non-null values: 142/152 (93.4%)
+   Unique values: 26 (18.3% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['0.03; 0.04; 0.1; 0.3; 0.34; 0.5; 0.64; 0.7; 0.71; ...', '0.03; 0.04; 0.1; 0.3; 0.34; 0.5; 0.64; 0.7; 0.71; ...', '0.03; 0.04; 0.1; 0.3; 0.34; 0.5; 0.64; 0.7; 0.71; ...', '0.03; 0.04; 0.1; 0.3; 0.34; 0.5; 0.64; 0.7; 0.71; ...', '0.1; 0.34; 0.48; 0.5; 0.64; 0.7; 0.8; 1.0; 1.1; 1....']
+
+524. reference_low (list distinct)
+   Type: object
+   Non-null values: 142/152 (93.4%)
+   Unique values: 26 (18.3% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['0.0; 0.1; 0.32; 0.42; 0.46; 1.0; 1.002; 1.5; 1.8; ...', '0.0; 0.1; 0.32; 0.42; 0.46; 1.0; 1.002; 1.5; 1.8; ...', '0.0; 0.1; 0.32; 0.42; 0.46; 1.0; 1.002; 1.5; 1.8; ...', '0.0; 0.1; 0.32; 0.42; 0.46; 1.0; 1.002; 1.5; 1.8; ...', '0.0; 0.1; 0.29; 0.32; 1.0; 1.5; 2.0; 3.3; 3.5; 3.9...']
+
+525. result age (list distinct)
+   Type: object
+   Non-null values: 143/152 (94.1%)
+   Unique values: 27 (18.9% of non-null)
+   Column category: Demographic information
+   Contains semicolon-separated values: Yes
+   Sample values: ['394; 2956; 2957; 2958; 2960; 2961; 2963; 2964; 298...', '394; 2956; 2957; 2958; 2960; 2961; 2963; 2964; 298...', '394; 2956; 2957; 2958; 2960; 2961; 2963; 2964; 298...', '394; 2956; 2957; 2958; 2960; 2961; 2963; 2964; 298...', '2006; 2007; 2008; 2010; 2012; 2014; 2069; 2070; 20...']
+
+526. measure value (list distinct).1
+   Type: object
+   Non-null values: 143/152 (94.1%)
+   Unique values: 27 (18.9% of non-null)
+   Column category: Clinical measurement
+   Contains semicolon-separated values: Yes
+   Sample values: ['-0.02; -0.03; -0.28; -0.29; 0.0; 0.01; 0.0117; 0.0...', '-0.02; -0.03; -0.28; -0.29; 0.0; 0.01; 0.0117; 0.0...', '-0.02; -0.03; -0.28; -0.29; 0.0; 0.01; 0.0117; 0.0...', '-0.02; -0.03; -0.28; -0.29; 0.0; 0.01; 0.0117; 0.0...', '0.0; 0.002; 0.02; 0.07; 0.08; 0.09; 0.14; 0.18; 0....']
+
+527. ordering age (list distinct)
+   Type: object
+   Non-null values: 143/152 (94.1%)
+   Unique values: 27 (18.9% of non-null)
+   Column category: Demographic information
+   Contains semicolon-separated values: Yes
+   Sample values: ['394; 2956; 2961; 2983; 2996; 3011; 3061; 3074; 310...', '394; 2956; 2961; 2983; 2996; 3011; 3061; 3074; 310...', '394; 2956; 2961; 2983; 2996; 3011; 3061; 3074; 310...', '394; 2956; 2961; 2983; 2996; 3011; 3061; 3074; 310...', '2006; 2069; 2125; 2232; 2433; 2602; 2797...']
+
+528. ordering date (list distinct)
+   Type: object
+   Non-null values: 143/152 (94.1%)
+   Unique values: 27 (18.9% of non-null)
+   Column category: Date/Time
+   Contains semicolon-separated values: Yes
+   Sample values: ['2012; 2019; 2020; 2021; 2022; 2023; 2024; 2025', '2012; 2019; 2020; 2021; 2022; 2023; 2024; 2025', '2012; 2019; 2020; 2021; 2022; 2023; 2024; 2025', '2012; 2019; 2020; 2021; 2022; 2023; 2024; 2025', '2017; 2018; 2019']
+
+529. LOINC code (list distinct)
+   Type: object
+   Non-null values: 142/152 (93.4%)
+   Unique values: 26 (18.3% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['13046-8; 13536-8; 15205-8; 16933-4; 1742-6; 1751-7...', '13046-8; 13536-8; 15205-8; 16933-4; 1742-6; 1751-7...', '13046-8; 13536-8; 15205-8; 16933-4; 1742-6; 1751-7...', '13046-8; 13536-8; 15205-8; 16933-4; 1742-6; 1751-7...', '10378-8; 13046-8; 13068-2; 13536-8; 16933-4; 1742-...']
+
+530. lab component name (list distinct)
+   Type: object
+   Non-null values: 143/152 (94.1%)
+   Unique values: 27 (18.9% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['A/G RATIO; ALANINE AMINOTRANSFERASE; ALBUMIN; ALBU...', 'A/G RATIO; ALANINE AMINOTRANSFERASE; ALBUMIN; ALBU...', 'A/G RATIO; ALANINE AMINOTRANSFERASE; ALBUMIN; ALBU...', 'A/G RATIO; ALANINE AMINOTRANSFERASE; ALBUMIN; ALBU...', 'A/G RATIO; ALBUMIN LEVEL; ALK PHOS; ALT; ANA PATTE...']
+
+531. order status (list distinct).1
+   Type: object
+   Non-null values: 149/152 (98.0%)
+   Unique values: 10 (6.7% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['Completed; Discontinued; Dispensed; Sent; Suspend', 'Completed; Discontinued; Dispensed; Sent; Suspend', 'Completed; Discontinued; Dispensed; Sent; Suspend', 'Completed; Discontinued; Dispensed; Sent; Suspend', 'Completed; Discontinued; Dispensed; Sent']
+
+532. thera_class (list distinct)
+   Type: object
+   Non-null values: 152/152 (100.0%)
+   Unique values: 30 (19.7% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['Analgesic/Anti-Inflammatory/Migraine/Gout Agents/A...', 'Analgesic/Anti-Inflammatory/Migraine/Gout Agents/A...', 'Analgesic/Anti-Inflammatory/Migraine/Gout Agents/A...', 'Analgesic/Anti-Inflammatory/Migraine/Gout Agents/A...', 'Analgesic/Anti-Inflammatory/Migraine/Gout Agents/A...']
+
+533. pharm_subclass (list distinct)
+   Type: object
+   Non-null values: 152/152 (100.0%)
+   Unique values: 36 (23.7% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['5-HT3 Receptor Antagonists; Aminopenicillins; Anal...', '5-HT3 Receptor Antagonists; Aminopenicillins; Anal...', '5-HT3 Receptor Antagonists; Aminopenicillins; Anal...', '5-HT3 Receptor Antagonists; Aminopenicillins; Anal...', 'Anti-TNF-alpha - Monoclonal Antibodies; Antimetabo...']
+
+534. pharm_class (list distinct)
+   Type: object
+   Non-null values: 152/152 (100.0%)
+   Unique values: 35 (23.0% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['Analgesics - NonNarcotic; Analgesics - anti-inflam...', 'Analgesics - NonNarcotic; Analgesics - anti-inflam...', 'Analgesics - NonNarcotic; Analgesics - anti-inflam...', 'Analgesics - NonNarcotic; Analgesics - anti-inflam...', 'Analgesics - anti-inflammatory; Antineoplastics an...']
+
+535. dose and route (list distinct)
+   Type: object
+   Non-null values: 152/152 (100.0%)
+   Unique values: 36 (23.7% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['200 mg by Intravenous route 1 time for 1 dose.; IN...', '200 mg by Intravenous route 1 time for 1 dose.; IN...', '200 mg by Intravenous route 1 time for 1 dose.; IN...', '200 mg by Intravenous route 1 time for 1 dose.; IN...', 'Apply 30 minutes before procedure.; Dispense 30 ne...']
+
+536. generic_name (list distinct)
+   Type: object
+   Non-null values: 152/152 (100.0%)
+   Unique values: 36 (23.7% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['Acetaminophen Susp 160 MG/5ML; Acetaminophen Tab 3...', 'Acetaminophen Susp 160 MG/5ML; Acetaminophen Tab 3...', 'Acetaminophen Susp 160 MG/5ML; Acetaminophen Tab 3...', 'Acetaminophen Susp 160 MG/5ML; Acetaminophen Tab 3...', 'Adalimumab Prefilled Syringe Kit 20 MG/0.2ML; Adal...']
+
+537. simple_generic_name (list distinct)
+   Type: object
+   Non-null values: 152/152 (100.0%)
+   Unique values: 36 (23.7% of non-null)
+   Column category: Other/Unknown
+   Contains semicolon-separated values: Yes
+   Sample values: ['Acetaminophen; Amoxicillin; Cyclopentolate HCl; Di...', 'Acetaminophen; Amoxicillin; Cyclopentolate HCl; Di...', 'Acetaminophen; Amoxicillin; Cyclopentolate HCl; Di...', 'Acetaminophen; Amoxicillin; Cyclopentolate HCl; Di...', 'Adalimumab; Brimonidine Tartrate; Cyclopentolate H...']
+
+538. medication name (list distinct)
+   Type: object
+   Non-null values: 152/152 (100.0%)
+   Unique values: 36 (23.7% of non-null)
+   Column category: Medication/Treatment
+   Contains semicolon-separated values: Yes
+   Sample values: ['ACETAMINOPHEN 160 MG/5ML PO SUSP; ACETAMINOPHEN 32...', 'ACETAMINOPHEN 160 MG/5ML PO SUSP; ACETAMINOPHEN 32...', 'ACETAMINOPHEN 160 MG/5ML PO SUSP; ACETAMINOPHEN 32...', 'ACETAMINOPHEN 160 MG/5ML PO SUSP; ACETAMINOPHEN 32...', 'ADALIMUMAB 20 MG/0.2ML SC PSKT; ADALIMUMAB 20 MG/0...']
